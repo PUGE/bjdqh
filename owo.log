@@ -1,0 +1,139 @@
+22:12:06.833 DEBUG 获取到配置信息: 
+22:12:06.833 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}],"scriptList":[{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"}],"styleList":[{"name":"main","src":"./src/main.css","resource":true},{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
+22:12:06.833 INFO  --------------------------- 开始编译 --------------------------- 
+22:12:06.833 INFO  程序运行目录: C:\Users\my\Documents\GitHub\bjdqh 
+22:12:06.833 INFO  首次启动! 
+22:12:06.833 INFO  生成版本号: pjyroo08nu 
+22:12:06.833 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\bjdqh\dist\static 
+22:12:06.833 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\bjdqh\dist\static 
+22:12:06.833 INFO  创建文件夹: C:\Users\my\Documents\GitHub\bjdqh\dist\static 
+22:12:06.833 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
+22:12:06.833 DEBUG 读取网页标题: 页面 
+22:12:06.833 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+22:12:06.833 DEBUG 处理模板: ./src/page/home.page 
+22:12:06.864 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:12:06.864 DEBUG 使用文件缓存:C:\Users\my\Documents\GitHub\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+22:12:06.864 ERROR 模块: topBar 不包含script 
+22:12:06.889 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:12:06.889 DEBUG 模板topBar处理用时: 25 毫秒! 
+22:12:06.976 DEBUG 缓存模板: ./src/page/home.page 
+22:12:06.976 DEBUG 模板home处理用时: 143 毫秒! 
+22:12:06.976 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\bjdqh\dist\static\resource 
+22:12:06.976 INFO  创建文件夹: C:\Users\my\Documents\GitHub\bjdqh\dist\static\resource 
+22:12:06.976 INFO  css中的资源处理完毕! 
+22:12:06.992 INFO  正在处理script! 
+22:12:06.992 INFO  工程中只有一个页面! 
+22:12:06.992 DEBUG 页面中不包含切换动画! 
+22:12:07.869 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\bjdqh\dist\static\js 
+22:12:07.869 INFO  创建文件夹: C:\Users\my\Documents\GitHub\bjdqh\dist\static\js 
+22:12:07.890 INFO  js中的资源处理完毕! 
+22:12:07.891 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
+22:12:07.891 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\log.js 
+22:12:07.891 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"}] 
+22:12:07.891 DEBUG 外部脚本数量: 1 
+22:12:07.891 DEBUG 处理脚本: swiper 
+22:12:07.891 DEBUG 不使用bable处理脚本! 
+22:12:07.891 INFO  读取文件: C:\Users\my\Documents\GitHub\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
+22:12:07.891 DEBUG 输出scriptData 
+22:12:07.892 DEBUG 判断是否可以输出Html! 
+22:12:07.892 DEBUG 还有没有经过处理的资源! 
+22:12:07.892 INFO  监控文件夹变化: C:\Users\my\Documents\GitHub\bjdqh\src 
+22:12:07.905 INFO  服务器运行在: 127.0.0.1:8000 
+22:12:08.106 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-home .home ",".o-home "]] 
+22:12:08.106 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css 
+22:12:08.106 INFO  创建文件夹: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css 
+22:12:08.106 INFO  开始处理附属css中的资源 
+22:12:08.106 INFO  附属css中的资源处理完毕! 
+22:12:08.106 INFO  读取文件: C:\Users\my\Documents\GitHub\bjdqh\src\resource\idangerous.swiper2.7.0.css 
+22:12:08.106 INFO  附属css中的资源不需要处理! 
+22:12:08.106 DEBUG 判断是否可以输出Html! 
+22:12:08.106 DEBUG 准备输出html! 
+22:12:08.106 DEBUG 开始美化html 
+22:12:08.137 INFO  发送重新页面需要刷新命令! 
+22:12:08.157 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
+22:12:08.158 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\log.js 
+22:12:08.158 INFO  读取成功: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:12:08.158 DEBUG 处理资源: C:\Users\my\Documents\GitHub\bjdqh\src\resource\bg-spot.png 
+22:12:08.159 INFO  读取成功: C:\Users\my\Documents\GitHub\bjdqh\src\resource\idangerous.swiper2.7.0.css 
+22:12:08.167 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\js\log.js 
+22:12:08.167 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\js\autoReload.js 
+22:12:08.167 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css\main.css 
+22:12:08.167 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css\swiper.css 
+22:12:08.167 INFO  读取成功: C:\Users\my\Documents\GitHub\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
+22:12:08.168 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\js\swiper.js 
+22:12:09.548 DEBUG 文件处理成功: 
+22:12:09.548 DEBUG C:\Users\my\Documents\GitHub\bjdqh\dist\static\resource\bg-spot.png 
+22:14:02.281 INFO  file change: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:14:02.282 INFO  --------------------------- 开始编译 --------------------------- 
+22:14:02.282 INFO  程序运行目录: C:\Users\my\Documents\GitHub\bjdqh 
+22:14:02.282 INFO  刷新模式,变化目录: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:14:02.282 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
+22:14:02.282 DEBUG 读取网页标题: 页面 
+22:14:02.283 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+22:14:02.283 DEBUG 处理模板: ./src/page/home.page 
+22:14:02.288 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:14:02.288 DEBUG 使用文件缓存:C:\Users\my\Documents\GitHub\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+22:14:02.288 ERROR 模块: topBar 不包含script 
+22:14:02.293 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:14:02.293 DEBUG 模板topBar处理用时: 5 毫秒! 
+22:14:02.296 DEBUG 缓存模板: ./src/page/home.page 
+22:14:02.296 DEBUG 模板home处理用时: 13 毫秒! 
+22:14:02.297 INFO  css中的资源处理完毕! 
+22:14:02.298 INFO  正在处理script! 
+22:14:02.298 INFO  工程中只有一个页面! 
+22:14:02.299 DEBUG 页面中不包含切换动画! 
+22:14:02.433 INFO  js中的资源处理完毕! 
+22:14:02.434 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"}] 
+22:14:02.434 DEBUG 外部脚本数量: 1 
+22:14:02.434 DEBUG 处理脚本: swiper 
+22:14:02.434 DEBUG 不使用bable处理脚本! 
+22:14:02.434 DEBUG 输出scriptData 
+22:14:02.434 DEBUG 判断是否可以输出Html! 
+22:14:02.434 DEBUG 还有没有经过处理的资源! 
+22:14:02.568 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-home .home ",".o-home "]] 
+22:14:02.569 INFO  开始处理附属css中的资源 
+22:14:02.569 INFO  附属css中的资源处理完毕! 
+22:14:02.569 DEBUG 判断是否可以输出Html! 
+22:14:02.569 DEBUG 准备输出html! 
+22:14:02.569 DEBUG 开始美化html 
+22:14:02.580 INFO  发送重新页面需要刷新命令! 
+22:14:02.581 INFO  读取成功: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:14:02.581 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\bjdqh\src\resource\bg-spot.png 
+22:14:02.582 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css\main.css 
+22:15:31.026 INFO  file change: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:15:31.026 INFO  --------------------------- 开始编译 --------------------------- 
+22:15:31.026 INFO  程序运行目录: C:\Users\my\Documents\GitHub\bjdqh 
+22:15:31.026 INFO  刷新模式,变化目录: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:15:31.027 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
+22:15:31.027 DEBUG 读取网页标题: 页面 
+22:15:31.027 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+22:15:31.027 DEBUG 处理模板: ./src/page/home.page 
+22:15:31.029 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:15:31.029 DEBUG 使用文件缓存:C:\Users\my\Documents\GitHub\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+22:15:31.029 ERROR 模块: topBar 不包含script 
+22:15:31.033 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+22:15:31.033 DEBUG 模板topBar处理用时: 4 毫秒! 
+22:15:31.035 DEBUG 缓存模板: ./src/page/home.page 
+22:15:31.035 DEBUG 模板home处理用时: 8 毫秒! 
+22:15:31.035 INFO  css中的资源处理完毕! 
+22:15:31.036 INFO  正在处理script! 
+22:15:31.036 INFO  工程中只有一个页面! 
+22:15:31.037 DEBUG 页面中不包含切换动画! 
+22:15:31.112 INFO  js中的资源处理完毕! 
+22:15:31.112 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"}] 
+22:15:31.112 DEBUG 外部脚本数量: 1 
+22:15:31.112 DEBUG 处理脚本: swiper 
+22:15:31.112 DEBUG 不使用bable处理脚本! 
+22:15:31.112 DEBUG 输出scriptData 
+22:15:31.112 DEBUG 判断是否可以输出Html! 
+22:15:31.112 DEBUG 还有没有经过处理的资源! 
+22:15:31.235 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-home .home ",".o-home "]] 
+22:15:31.235 INFO  开始处理附属css中的资源 
+22:15:31.235 INFO  附属css中的资源处理完毕! 
+22:15:31.235 DEBUG 判断是否可以输出Html! 
+22:15:31.235 DEBUG 准备输出html! 
+22:15:31.235 DEBUG 开始美化html 
+22:15:31.235 INFO  发送重新页面需要刷新命令! 
+22:15:31.235 INFO  读取成功: C:\Users\my\Documents\GitHub\bjdqh\src\main.css 
+22:15:31.235 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\bjdqh\src\resource\bg-spot.png 
+22:15:31.246 INFO  写入文件: C:\Users\my\Documents\GitHub\bjdqh\dist\static\css\main.css 

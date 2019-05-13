@@ -24,7 +24,7 @@ module.exports = {
   scriptList: [
     {
       name: "swiper",
-      src: ".src/resource/idangerous.swiper2.7.0.min.js"
+      src: "./src/resource/idangerous.swiper2.7.0.min.js"
     },
   ],
   // 使用到的样式列表
@@ -36,7 +36,7 @@ module.exports = {
     },
     {
       name: "swiper",
-      src: ".src/resource/idangerous.swiper2.7.0.css"
+      src: "./src/resource/idangerous.swiper2.7.0.css"
     }
   ],
   // 页面清单

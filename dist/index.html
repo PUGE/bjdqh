@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <title>页面</title>
+  <!-- 页面的元信息 -->
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no" />
+  <!-- 页面主样式文件 -->
+  <style>
+    body,
+    html,
+    .ox {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* 清除浮动 */
+    .clear {
+      clear: both;
+    }
+
+    .owo-animation {
+      overflow: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .title-bar {
+      background-color: #ffffff;
+    }
+
+    .title-bar .content {
+      width: 1000px;
+      height: 40px;
+      margin: auto;
+    }
+
+    .title-bar .logo {
+      margin: 5px 10px;
+    }
+
+    .title-bar .content-item {
+      float: left;
+      display: block;
+    }
+
+    .title-bar .link {
+      color: rgba(102, 102, 102, 1.00);
+      font-size: 14px;
+      margin: 0 10px;
+      line-height: 40px;
+    }
+
+    .title-bar a {
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+  <!-- 附属css文件 -->
+  <link rel="stylesheet" href="./static/css/main.css">
+  <link rel="stylesheet" href="./static/css/swiper.css">
+
+</head>
+
+<body>
+  <!-- 页面区域 -->
+  <div class="home o-home ox" id="o-home">
+    <div class="title-bar o-topBar" template="topBar">
+      <div class="content">
+        <a class="content-item" href="http://www.people.com.cn/">
+          <img class="logo" src="https://cunchu.site/ozzx/resource/logo.png">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- owo框架代码 -->
+  <script>
+    "use strict";
+
+    window.owo = {
+      // 页面数据和方法
+      script: {
+        "home": {
+          "data": {}
+        },
+        "topBar": {
+          "prop": {
+            "name": "topBar",
+            "src": "https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page"
+          }
+        }
+      },
+      // 页面默认入口
+      entry: "home"
+    };
+  </script>
+  <!-- 框架script文件 -->
+  <script src="./static/js/owo.main.js" type="text/javascript"></script>
+  <!-- 调试-热刷新代码 -->
+  <script src="./static/js/autoReload.js" type="text/javascript"></script>
+  <!-- 调试-远程调试 -->
+  <script src="./static/js/log.js" type="text/javascript"></script>
+  <script src="./static/js/swiper.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    asd
+    <temple name="topBar" src="https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page"></temple>
   </div>
 </template>
 
