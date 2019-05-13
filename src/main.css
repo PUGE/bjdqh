@@ -1,0 +1,48 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  min-width: 1200px;
+  font-family: Microsoft YaHei;
+  -webkit-overflow-scrolling: touch;
+}
+html {
+  background-image: url('@&bg-spot.png&');
+}
+/* 清除浮动 */
+.clear {
+  clear: both;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+li:before {
+  content: '•';
+  color: #595757;
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+.o-topBar {
+  margin-bottom: 14%;
+}
+/* 新闻列表特殊处理 */
+.o-newsList {
+  padding-left: 10px;
+}

@@ -1,0 +1,96 @@
+<template>
+  <div class="image-show">
+    <div class="video">
+      <a target="_blank"  href="#">
+        <img src="@&video.png&">
+      </a>
+    </div>
+    <p class="title"><a target="_blank" >专访霍启刚:推动年轻人积极参与国家发展</a></p>
+    <p class="text">辽宁客场击败新疆队击败新疆队辽宁客场击败新疆队击败新疆队</p>
+    <span class="title"><a target="_blank">往期大咖</a></span>
+    <div class="people-item">
+      <a target="_blank" @for="item in data.peopleList" href="{{item.url}}">{{item.name}}</a>
+    </div>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      peopleList: [
+        {"name": "杜兆才", "url": "http://www.people.com.cn/"},
+        {"name": "姚  明", "url": "http://www.people.com.cn/"},
+        {"name": "赵晓春", "url": "http://www.people.com.cn/"},
+        {"name": "谭景峰", "url": "http://www.people.com.cn/"},
+        {"name": "李克敏", "url": "http://www.people.com.cn/"},
+        {"name": "陈 刚", "url": "http://www.people.com.cn/"},
+        {"name": "刘建宏", "url": "http://www.people.com.cn/"},
+      ]
+    }
+  }
+</script>
+
+<style lang="less">
+.image-show {
+  background-color: #f2f2f2;
+  padding: 0 20px;
+  height: 340px;
+  padding-bottom: 20px;
+}
+.title-bar {
+  font-size: 21px;
+  position: relative;
+  line-height: 50px;
+}
+.video {
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+  width: 260px;
+  height: 140px;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
+.video:after {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  content: url('@&play.png&')
+}
+.title {
+  font-size: 12px;
+  color: #595757;
+  font-weight: bold;
+  line-height: 30px;
+  display: block;
+}
+.text {
+  color: #595757;
+  font-size: 12px;
+  line-height: 26px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  height: 64px;
+  margin: 0;
+}
+.people-item a {
+  font-size: 12px;
+  color: #595757;
+}
+p {
+  margin: 0;
+}
+</style>
