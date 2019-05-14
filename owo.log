@@ -1,204 +1,1753 @@
-14:45:36.763 DEBUG 获取到配置信息: 
-14:45:36.763 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}],"scriptList":[{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"}],"styleList":[{"name":"main","src":"./src/main.css","resource":true},{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
-14:45:36.764 INFO  --------------------------- 开始编译 --------------------------- 
-14:45:36.764 INFO  程序运行目录: D:\work\bjdqh 
-14:45:36.764 INFO  首次启动! 
-14:45:36.764 INFO  生成版本号: m13gjryh1vg 
-14:45:36.771 INFO  清理资源文件夹: D:\work\bjdqh\dist\static 
-14:45:36.771 INFO  文件夹不存在: D:\work\bjdqh\dist\static 
-14:45:36.771 INFO  创建文件夹: D:\work\bjdqh\dist\static 
-14:45:36.771 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
-14:45:36.771 DEBUG 读取网页标题: 页面 
-14:45:36.771 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
-14:45:36.772 DEBUG 处理模板: ./src/page/home.page 
-14:45:36.799 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
-14:45:36.799 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
-14:45:36.799 ERROR 模块: topBar 不包含script 
-14:45:36.806 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
-14:45:36.806 DEBUG 模板topBar处理用时: 7 毫秒! 
-14:45:36.809 DEBUG 处理模板: ./src/module/titleBar.owo 
-14:45:36.809 ERROR 模块: titleBar 不包含script 
-14:45:37.138 DEBUG 缓存模板: ./src/module/titleBar.owo 
-14:45:37.138 DEBUG 模板titleBar处理用时: 329 毫秒! 
-14:45:37.143 DEBUG 处理模板: ./src/module/swiper.owo 
-14:45:37.153 DEBUG 缓存模板: ./src/module/swiper.owo 
-14:45:37.153 DEBUG 模板swiper处理用时: 10 毫秒! 
-14:45:37.155 DEBUG 处理模板: ./src/module/newsList.owo 
-14:45:37.155 ERROR 模块: newsList 不包含script 
-14:45:37.179 DEBUG 缓存模板: ./src/module/newsList.owo 
-14:45:37.179 DEBUG 模板newsList处理用时: 24 毫秒! 
-14:45:37.182 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:37.186 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:37.186 DEBUG 模板imageBar处理用时: 4 毫秒! 
-14:45:37.186 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:37.187 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:37.187 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:37.187 DEBUG 模板imageBar2处理用时: 1 毫秒! 
-14:45:37.188 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:37.189 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:37.189 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:37.189 DEBUG 模板imageBar3处理用时: 1 毫秒! 
-14:45:37.190 DEBUG 处理模板: ./src/module/newsCard.owo 
-14:45:37.190 ERROR 模块: newsCard 不包含script 
-14:45:37.196 DEBUG 缓存模板: ./src/module/newsCard.owo 
-14:45:37.196 DEBUG 模板newsCard处理用时: 6 毫秒! 
-14:45:37.198 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.199 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.200 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.202 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.203 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.205 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:37.206 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:37.206 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:37.206 DEBUG 模板imageBar4处理用时: 1 毫秒! 
-14:45:37.207 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:37.208 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
-14:45:37.208 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
-14:45:37.208 ERROR 模块: copyright 不包含script 
-14:45:37.210 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
-14:45:37.210 DEBUG 模板copyright处理用时: 2 毫秒! 
-14:45:37.214 DEBUG 缓存模板: ./src/page/home.page 
-14:45:37.214 DEBUG 模板home处理用时: 442 毫秒! 
-14:45:37.215 INFO  文件夹不存在: D:\work\bjdqh\dist\static\resource 
-14:45:37.216 INFO  创建文件夹: D:\work\bjdqh\dist\static\resource 
-14:45:37.216 DEBUG 处理资源: D:\work\bjdqh\src\resource\bar.png 
-14:45:37.217 INFO  css中的资源处理完毕! 
-14:45:37.229 INFO  正在处理script! 
-14:45:37.229 INFO  工程中只有一个页面! 
-14:45:37.229 DEBUG 页面中不包含切换动画! 
-14:45:39.546 INFO  文件夹不存在: D:\work\bjdqh\dist\static\js 
-14:45:39.546 INFO  创建文件夹: D:\work\bjdqh\dist\static\js 
-14:45:39.563 INFO  js中的资源处理完毕! 
-14:45:39.564 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-14:45:39.564 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
-14:45:39.564 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"}] 
-14:45:39.564 DEBUG 外部脚本数量: 3 
-14:45:39.564 DEBUG 处理脚本: swiper 
-14:45:39.564 DEBUG 不使用bable处理脚本! 
-14:45:39.564 INFO  读取文件: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
-14:45:39.564 DEBUG 处理脚本: jquery1.11.0 
-14:45:39.564 DEBUG 网络脚本: jquery1.11.0 
-14:45:39.564 DEBUG 处理脚本: roundabout 
-14:45:39.564 DEBUG 不使用bable处理脚本! 
-14:45:39.564 INFO  读取文件: D:\work\bjdqh\src\resource\roundabout.js 
-14:45:39.565 DEBUG 输出scriptData 
-14:45:39.565 DEBUG 判断是否可以输出Html! 
-14:45:39.565 DEBUG 还有没有经过处理的资源! 
-14:45:39.565 INFO  监控文件夹变化: D:\work\bjdqh\src 
-14:45:39.576 INFO  服务器运行在: 127.0.0.1:8000 
-14:45:39.761 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
-14:45:39.761 INFO  文件夹不存在: D:\work\bjdqh\dist\static\css 
-14:45:39.762 INFO  创建文件夹: D:\work\bjdqh\dist\static\css 
-14:45:39.762 INFO  开始处理附属css中的资源 
-14:45:39.762 INFO  附属css中的资源处理完毕! 
-14:45:39.762 INFO  读取文件: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.css 
-14:45:39.762 INFO  附属css中的资源不需要处理! 
-14:45:39.762 DEBUG 判断是否可以输出Html! 
-14:45:39.762 DEBUG 准备输出html! 
-14:45:39.762 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title-3.png 
-14:45:39.762 DEBUG 处理资源: D:\work\bjdqh\src\resource\title-1.png,D:\work\bjdqh\src\resource\title-2.png,D:\work\bjdqh\src\resource\title-3.png 
-14:45:39.763 DEBUG 开始美化html 
-14:45:39.807 INFO  发送重新页面需要刷新命令! 
-14:45:39.926 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-14:45:39.926 INFO  读取成功: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.css 
-14:45:39.945 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
-14:45:39.945 INFO  读取成功: D:\work\bjdqh\src\main.css 
-14:45:39.945 DEBUG 处理资源: D:\work\bjdqh\src\resource\bg-spot.png 
-14:45:39.953 INFO  写入文件: D:\work\bjdqh\dist\static\js\autoReload.js 
-14:45:39.954 INFO  写入文件: D:\work\bjdqh\dist\static\css\swiper.css 
-14:45:39.958 INFO  读取成功: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
-14:45:39.961 INFO  读取成功: D:\work\bjdqh\src\resource\roundabout.js 
-14:45:39.961 INFO  写入文件: D:\work\bjdqh\dist\static\js\log.js 
-14:45:39.961 INFO  写入文件: D:\work\bjdqh\dist\static\css\main.css 
-14:45:39.967 INFO  写入文件: D:\work\bjdqh\dist\static\js\swiper.js 
-14:45:39.969 INFO  写入文件: D:\work\bjdqh\dist\static\js\roundabout.js 
-14:45:40.004 DEBUG 文件处理成功: 
-14:45:40.004 DEBUG D:\work\bjdqh\dist\static\resource\title-1.png 
-14:45:40.004 DEBUG D:\work\bjdqh\dist\static\resource\title-2.png 
-14:45:40.004 DEBUG D:\work\bjdqh\dist\static\resource\title-3.png 
-14:45:40.018 DEBUG 文件处理成功: 
-14:45:40.018 DEBUG D:\work\bjdqh\dist\static\resource\bar.png 
-14:45:41.522 DEBUG 文件处理成功: 
-14:45:41.522 DEBUG D:\work\bjdqh\dist\static\resource\bg-spot.png 
-14:45:58.352 INFO  file change: D:\work\bjdqh\src\page\home.page 
-14:45:58.352 INFO  --------------------------- 开始编译 --------------------------- 
-14:45:58.352 INFO  程序运行目录: D:\work\bjdqh 
-14:45:58.352 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
-14:45:58.352 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
-14:45:58.352 DEBUG 读取网页标题: 页面 
-14:45:58.352 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
-14:45:58.353 DEBUG 处理模板: ./src/page/home.page 
-14:45:58.364 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
-14:45:58.364 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
-14:45:58.364 ERROR 模块: topBar 不包含script 
-14:45:58.367 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
-14:45:58.367 DEBUG 模板topBar处理用时: 4 毫秒! 
-14:45:58.368 DEBUG 处理模板: ./src/module/titleBar.owo 
-14:45:58.368 ERROR 模块: titleBar 不包含script 
-14:45:58.375 DEBUG 缓存模板: ./src/module/titleBar.owo 
-14:45:58.375 DEBUG 模板titleBar处理用时: 7 毫秒! 
-14:45:58.377 DEBUG 处理模板: ./src/module/swiper.owo 
-14:45:58.389 DEBUG 缓存模板: ./src/module/swiper.owo 
-14:45:58.389 DEBUG 模板swiper处理用时: 12 毫秒! 
-14:45:58.393 DEBUG 处理模板: ./src/module/newsList.owo 
-14:45:58.393 ERROR 模块: newsList 不包含script 
-14:45:58.400 DEBUG 缓存模板: ./src/module/newsList.owo 
-14:45:58.400 DEBUG 模板newsList处理用时: 7 毫秒! 
-14:45:58.404 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:58.407 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:58.407 DEBUG 模板imageBar处理用时: 3 毫秒! 
-14:45:58.408 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:58.410 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:58.410 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:58.410 DEBUG 模板imageBar2处理用时: 2 毫秒! 
-14:45:58.411 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:58.413 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:58.413 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:58.413 DEBUG 模板imageBar3处理用时: 2 毫秒! 
-14:45:58.413 DEBUG 处理模板: ./src/module/newsCard.owo 
-14:45:58.414 ERROR 模块: newsCard 不包含script 
-14:45:58.423 DEBUG 缓存模板: ./src/module/newsCard.owo 
-14:45:58.423 DEBUG 模板newsCard处理用时: 10 毫秒! 
-14:45:58.424 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.425 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.427 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.428 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.428 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.429 DEBUG 处理模板: ./src/module/imageBar.owo 
-14:45:58.430 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
-14:45:58.430 DEBUG 缓存模板: ./src/module/imageBar.owo 
-14:45:58.430 DEBUG 模板imageBar4处理用时: 1 毫秒! 
-14:45:58.431 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
-14:45:58.432 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
-14:45:58.432 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
-14:45:58.432 ERROR 模块: copyright 不包含script 
-14:45:58.434 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
-14:45:58.434 DEBUG 模板copyright处理用时: 2 毫秒! 
-14:45:58.440 DEBUG 缓存模板: ./src/page/home.page 
-14:45:58.440 DEBUG 模板home处理用时: 87 毫秒! 
-14:45:58.441 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
-14:45:58.441 INFO  css中的资源处理完毕! 
-14:45:58.444 INFO  正在处理script! 
-14:45:58.444 INFO  工程中只有一个页面! 
-14:45:58.445 DEBUG 页面中不包含切换动画! 
-14:45:58.570 INFO  js中的资源处理完毕! 
-14:45:58.570 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"}] 
-14:45:58.570 DEBUG 外部脚本数量: 3 
-14:45:58.570 DEBUG 处理脚本: swiper 
-14:45:58.570 DEBUG 不使用bable处理脚本! 
-14:45:58.570 DEBUG 处理脚本: jquery1.11.0 
-14:45:58.570 DEBUG 网络脚本: jquery1.11.0 
-14:45:58.570 DEBUG 处理脚本: roundabout 
-14:45:58.570 DEBUG 不使用bable处理脚本! 
-14:45:58.570 DEBUG 输出scriptData 
-14:45:58.570 DEBUG 判断是否可以输出Html! 
-14:45:58.570 DEBUG 还有没有经过处理的资源! 
-14:45:58.695 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
-14:45:58.696 DEBUG 判断是否可以输出Html! 
-14:45:58.696 DEBUG 准备输出html! 
-14:45:58.696 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title-1.png 
-14:45:58.696 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title-2.png 
-14:45:58.696 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title-3.png 
-14:45:58.696 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title-3.png 
-14:45:58.696 DEBUG 开始美化html 
-14:45:58.723 INFO  发送重新页面需要刷新命令! 
+16:27:33.951 DEBUG 获取到配置信息: 
+16:27:33.951 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}],"scriptList":[{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}],"styleList":[{"name":"main","src":"./src/main.css","resource":true},{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
+16:27:33.951 INFO  --------------------------- 开始编译 --------------------------- 
+16:27:33.951 INFO  程序运行目录: D:\work\bjdqh 
+16:27:33.951 INFO  首次启动! 
+16:27:33.951 INFO  生成版本号: m6ojfjy8xum 
+16:27:33.960 INFO  清理资源文件夹: D:\work\bjdqh\dist\static 
+16:27:33.960 INFO  文件夹不存在: D:\work\bjdqh\dist\static 
+16:27:33.960 INFO  创建文件夹: D:\work\bjdqh\dist\static 
+16:27:33.960 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:27:33.960 DEBUG 读取网页标题: 页面 
+16:27:33.960 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:27:33.961 DEBUG 处理模板: ./src/page/home.page 
+16:27:33.995 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:27:33.995 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:27:33.995 ERROR 模块: topBar 不包含script 
+16:27:34.004 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:27:34.004 DEBUG 模板topBar处理用时: 9 毫秒! 
+16:27:34.007 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:27:34.007 ERROR 模块: titleBar 不包含script 
+16:27:34.085 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:27:34.085 DEBUG 模板titleBar处理用时: 78 毫秒! 
+16:27:34.088 DEBUG 处理模板: ./src/module/swiper.owo 
+16:27:34.096 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:27:34.097 DEBUG 模板swiper处理用时: 9 毫秒! 
+16:27:34.105 DEBUG 处理模板: ./src/module/newsList.owo 
+16:27:34.105 ERROR 模块: newsList 不包含script 
+16:27:34.112 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:27:34.112 DEBUG 模板newsList处理用时: 7 毫秒! 
+16:27:34.116 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:27:34.120 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:27:34.120 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:27:34.121 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:27:34.123 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:27:34.123 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:27:34.123 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:27:34.123 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:27:34.125 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:27:34.125 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:27:34.125 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:27:34.125 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:27:34.125 ERROR 模块: newsCard 不包含script 
+16:27:34.130 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:27:34.130 DEBUG 模板newsCard处理用时: 5 毫秒! 
+16:27:34.132 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:27:34.133 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:27:34.134 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:27:34.135 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:27:34.136 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:27:34.137 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:27:34.139 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:27:34.139 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:27:34.139 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:27:34.139 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:27:34.149 DEBUG 发现 comment 规则: undefined 
+16:27:34.149 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:27:34.149 DEBUG 模板swiper2处理用时: 10 毫秒! 
+16:27:34.151 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:27:34.151 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:27:34.151 ERROR 模块: copyright 不包含script 
+16:27:34.153 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:27:34.153 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:27:34.159 DEBUG 缓存模板: ./src/page/home.page 
+16:27:34.159 DEBUG 模板home处理用时: 198 毫秒! 
+16:27:34.160 INFO  文件夹不存在: D:\work\bjdqh\dist\static\resource 
+16:27:34.160 INFO  创建文件夹: D:\work\bjdqh\dist\static\resource 
+16:27:34.161 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:27:34.161 DEBUG 处理资源: D:\work\bjdqh\src\resource\icon.png,D:\work\bjdqh\src\resource\left.png,D:\work\bjdqh\src\resource\bar.png,D:\work\bjdqh\src\resource\path.png 
+16:27:34.163 INFO  css中的资源处理完毕! 
+16:27:34.175 INFO  正在处理script! 
+16:27:34.176 INFO  工程中只有一个页面! 
+16:27:34.176 DEBUG 页面中不包含切换动画! 
+16:27:34.972 INFO  文件夹不存在: D:\work\bjdqh\dist\static\js 
+16:27:34.973 INFO  创建文件夹: D:\work\bjdqh\dist\static\js 
+16:27:34.996 INFO  js中的资源处理完毕! 
+16:27:34.997 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:27:34.997 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
+16:27:34.997 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:27:34.997 DEBUG 外部脚本数量: 4 
+16:27:34.997 DEBUG 处理脚本: swiper 
+16:27:34.997 DEBUG 不使用bable处理脚本! 
+16:27:34.997 INFO  读取文件: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
+16:27:34.997 DEBUG 处理脚本: jquery1.11.0 
+16:27:34.997 DEBUG 网络脚本: jquery1.11.0 
+16:27:34.997 DEBUG 处理脚本: roundabout 
+16:27:34.997 DEBUG 不使用bable处理脚本! 
+16:27:34.997 INFO  读取文件: D:\work\bjdqh\src\resource\roundabout.js 
+16:27:34.997 DEBUG 处理脚本: jquery.easing.1.3 
+16:27:34.997 DEBUG 不使用bable处理脚本! 
+16:27:34.997 INFO  读取文件: D:\work\bjdqh\src\resource\jquery.easing.1.3.js 
+16:27:34.998 DEBUG 输出scriptData 
+16:27:34.998 DEBUG 判断是否可以输出Html! 
+16:27:34.998 DEBUG 还有没有经过处理的资源! 
+16:27:34.998 INFO  监控文件夹变化: D:\work\bjdqh\src 
+16:27:35.009 INFO  服务器运行在: 127.0.0.1:8000 
+16:27:35.210 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:27:35.210 INFO  文件夹不存在: D:\work\bjdqh\dist\static\css 
+16:27:35.211 INFO  创建文件夹: D:\work\bjdqh\dist\static\css 
+16:27:35.211 INFO  开始处理附属css中的资源 
+16:27:35.211 INFO  附属css中的资源处理完毕! 
+16:27:35.211 INFO  读取文件: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.css 
+16:27:35.211 INFO  附属css中的资源不需要处理! 
+16:27:35.211 DEBUG 判断是否可以输出Html! 
+16:27:35.211 DEBUG 准备输出html! 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:27:35.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:27:35.211 DEBUG 处理资源: D:\work\bjdqh\src\resource\image.png,D:\work\bjdqh\src\resource\title.png 
+16:27:35.211 DEBUG 开始美化html 
+16:27:35.262 INFO  发送重新页面需要刷新命令! 
+16:27:35.288 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
+16:27:35.288 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:27:35.288 INFO  读取成功: D:\work\bjdqh\src\main.css 
+16:27:35.289 DEBUG 处理资源: D:\work\bjdqh\src\resource\bg-spot.png 
+16:27:35.289 INFO  读取成功: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.css 
+16:27:35.289 INFO  读取成功: D:\work\bjdqh\src\resource\roundabout.js 
+16:27:35.290 INFO  读取成功: D:\work\bjdqh\src\resource\jquery.easing.1.3.js 
+16:27:35.312 INFO  写入文件: D:\work\bjdqh\dist\static\js\log.js 
+16:27:35.313 INFO  写入文件: D:\work\bjdqh\dist\static\js\autoReload.js 
+16:27:35.313 INFO  写入文件: D:\work\bjdqh\dist\static\css\main.css 
+16:27:35.315 INFO  写入文件: D:\work\bjdqh\dist\static\js\jquery.easing.1.3.js 
+16:27:35.316 INFO  写入文件: D:\work\bjdqh\dist\static\js\roundabout.js 
+16:27:35.316 INFO  写入文件: D:\work\bjdqh\dist\static\css\swiper.css 
+16:27:35.316 INFO  读取成功: D:\work\bjdqh\src\resource\idangerous.swiper2.7.0.min.js 
+16:27:35.317 INFO  写入文件: D:\work\bjdqh\dist\static\js\swiper.js 
+16:27:35.342 DEBUG 文件处理成功: 
+16:27:35.342 DEBUG D:\work\bjdqh\dist\static\resource\icon.png 
+16:27:35.342 DEBUG D:\work\bjdqh\dist\static\resource\left.png 
+16:27:35.342 DEBUG D:\work\bjdqh\dist\static\resource\bar.png 
+16:27:35.342 DEBUG D:\work\bjdqh\dist\static\resource\path.png 
+16:27:36.288 DEBUG 文件处理成功: 
+16:27:36.288 DEBUG D:\work\bjdqh\dist\static\resource\image.png 
+16:27:36.288 DEBUG D:\work\bjdqh\dist\static\resource\title.png 
+16:27:36.667 DEBUG 文件处理成功: 
+16:27:36.667 DEBUG D:\work\bjdqh\dist\static\resource\bg-spot.png 
+16:28:13.063 INFO  file change: D:\work\bjdqh\src\page\home.page 
+16:28:13.063 INFO  --------------------------- 开始编译 --------------------------- 
+16:28:13.063 INFO  程序运行目录: D:\work\bjdqh 
+16:28:13.063 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
+16:28:13.063 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:28:13.064 DEBUG 读取网页标题: 页面 
+16:28:13.064 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:28:13.064 DEBUG 处理模板: ./src/page/home.page 
+16:28:13.078 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:28:13.078 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:28:13.079 ERROR 模块: topBar 不包含script 
+16:28:13.082 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:28:13.082 DEBUG 模板topBar处理用时: 4 毫秒! 
+16:28:13.084 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:28:13.084 ERROR 模块: titleBar 不包含script 
+16:28:13.091 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:28:13.091 DEBUG 模板titleBar处理用时: 7 毫秒! 
+16:28:13.092 DEBUG 处理模板: ./src/module/swiper.owo 
+16:28:13.101 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:28:13.101 DEBUG 模板swiper处理用时: 9 毫秒! 
+16:28:13.104 DEBUG 处理模板: ./src/module/newsList.owo 
+16:28:13.104 ERROR 模块: newsList 不包含script 
+16:28:13.113 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:28:13.113 DEBUG 模板newsList处理用时: 9 毫秒! 
+16:28:13.116 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:13.120 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:13.120 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:28:13.122 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:13.124 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:13.124 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:13.124 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:28:13.125 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:13.127 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:13.127 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:13.127 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:28:13.128 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:28:13.128 ERROR 模块: newsCard 不包含script 
+16:28:13.134 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:28:13.134 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:28:13.136 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:13.137 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:13.139 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:13.141 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:13.144 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:13.146 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:13.149 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:13.149 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:13.149 DEBUG 模板imageBar4处理用时: 3 毫秒! 
+16:28:13.149 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:28:13.156 DEBUG 发现 comment 规则: undefined 
+16:28:13.156 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:28:13.156 DEBUG 模板swiper2处理用时: 7 毫秒! 
+16:28:13.158 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:28:13.159 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:28:13.159 ERROR 模块: copyright 不包含script 
+16:28:13.162 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:28:13.162 DEBUG 模板copyright处理用时: 4 毫秒! 
+16:28:13.169 DEBUG 缓存模板: ./src/page/home.page 
+16:28:13.169 DEBUG 模板home处理用时: 105 毫秒! 
+16:28:13.170 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:28:13.170 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:28:13.170 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:28:13.170 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:28:13.170 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:28:13.170 INFO  css中的资源处理完毕! 
+16:28:13.176 INFO  正在处理script! 
+16:28:13.177 INFO  工程中只有一个页面! 
+16:28:13.177 DEBUG 页面中不包含切换动画! 
+16:28:13.310 INFO  js中的资源处理完毕! 
+16:28:13.311 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:28:13.311 DEBUG 外部脚本数量: 4 
+16:28:13.311 DEBUG 处理脚本: swiper 
+16:28:13.311 DEBUG 不使用bable处理脚本! 
+16:28:13.311 DEBUG 处理脚本: jquery1.11.0 
+16:28:13.311 DEBUG 网络脚本: jquery1.11.0 
+16:28:13.311 DEBUG 处理脚本: roundabout 
+16:28:13.311 DEBUG 不使用bable处理脚本! 
+16:28:13.311 DEBUG 处理脚本: jquery.easing.1.3 
+16:28:13.311 DEBUG 不使用bable处理脚本! 
+16:28:13.311 DEBUG 输出scriptData 
+16:28:13.311 DEBUG 判断是否可以输出Html! 
+16:28:13.311 DEBUG 还有没有经过处理的资源! 
+16:28:13.443 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:28:13.443 DEBUG 判断是否可以输出Html! 
+16:28:13.443 DEBUG 准备输出html! 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:13.444 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:13.444 DEBUG 开始美化html 
+16:28:13.475 INFO  发送重新页面需要刷新命令! 
+16:28:32.025 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:28:32.026 INFO  --------------------------- 开始编译 --------------------------- 
+16:28:32.026 INFO  程序运行目录: D:\work\bjdqh 
+16:28:32.026 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:28:32.026 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:28:32.027 DEBUG 读取网页标题: 页面 
+16:28:32.027 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:28:32.027 DEBUG 处理模板: ./src/page/home.page 
+16:28:32.039 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:28:32.039 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:28:32.039 ERROR 模块: topBar 不包含script 
+16:28:32.041 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:28:32.041 DEBUG 模板topBar处理用时: 2 毫秒! 
+16:28:32.042 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:28:32.042 ERROR 模块: titleBar 不包含script 
+16:28:32.048 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:28:32.048 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:28:32.049 DEBUG 处理模板: ./src/module/swiper.owo 
+16:28:32.054 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:28:32.054 DEBUG 模板swiper处理用时: 5 毫秒! 
+16:28:32.057 DEBUG 处理模板: ./src/module/newsList.owo 
+16:28:32.057 ERROR 模块: newsList 不包含script 
+16:28:32.064 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:28:32.064 DEBUG 模板newsList处理用时: 7 毫秒! 
+16:28:32.067 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:32.070 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:32.070 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:28:32.071 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:32.073 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:32.073 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:32.073 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:28:32.075 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:32.077 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:32.077 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:32.077 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:28:32.077 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:28:32.078 ERROR 模块: newsCard 不包含script 
+16:28:32.089 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:28:32.089 DEBUG 模板newsCard处理用时: 12 毫秒! 
+16:28:32.092 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:32.093 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:32.094 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:32.095 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:32.096 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:28:32.097 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:28:32.099 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:28:32.099 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:28:32.099 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:28:32.099 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:28:32.108 DEBUG 发现 comment 规则: undefined 
+16:28:32.108 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:28:32.108 DEBUG 模板swiper2处理用时: 9 毫秒! 
+16:28:32.112 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:28:32.112 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:28:32.112 ERROR 模块: copyright 不包含script 
+16:28:32.115 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:28:32.115 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:28:32.123 DEBUG 缓存模板: ./src/page/home.page 
+16:28:32.123 DEBUG 模板home处理用时: 96 毫秒! 
+16:28:32.124 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:28:32.124 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:28:32.124 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:28:32.124 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:28:32.124 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:28:32.124 INFO  css中的资源处理完毕! 
+16:28:32.130 INFO  正在处理script! 
+16:28:32.131 INFO  工程中只有一个页面! 
+16:28:32.131 DEBUG 页面中不包含切换动画! 
+16:28:32.228 INFO  js中的资源处理完毕! 
+16:28:32.228 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:28:32.228 DEBUG 外部脚本数量: 4 
+16:28:32.228 DEBUG 处理脚本: swiper 
+16:28:32.228 DEBUG 不使用bable处理脚本! 
+16:28:32.228 DEBUG 处理脚本: jquery1.11.0 
+16:28:32.228 DEBUG 网络脚本: jquery1.11.0 
+16:28:32.228 DEBUG 处理脚本: roundabout 
+16:28:32.228 DEBUG 不使用bable处理脚本! 
+16:28:32.228 DEBUG 处理脚本: jquery.easing.1.3 
+16:28:32.228 DEBUG 不使用bable处理脚本! 
+16:28:32.228 DEBUG 输出scriptData 
+16:28:32.228 DEBUG 判断是否可以输出Html! 
+16:28:32.229 DEBUG 还有没有经过处理的资源! 
+16:28:32.377 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:28:32.378 DEBUG 判断是否可以输出Html! 
+16:28:32.378 DEBUG 准备输出html! 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:32.378 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:28:32.378 DEBUG 开始美化html 
+16:28:32.427 INFO  发送重新页面需要刷新命令! 
+16:31:26.178 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:31:26.210 INFO  --------------------------- 开始编译 --------------------------- 
+16:31:26.210 INFO  程序运行目录: D:\work\bjdqh 
+16:31:26.210 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:31:26.210 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:31:26.211 DEBUG 读取网页标题: 页面 
+16:31:26.211 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:31:26.211 DEBUG 处理模板: ./src/page/home.page 
+16:31:26.217 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:31:26.217 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:31:26.217 ERROR 模块: topBar 不包含script 
+16:31:26.219 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:31:26.219 DEBUG 模板topBar处理用时: 2 毫秒! 
+16:31:26.220 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:31:26.220 ERROR 模块: titleBar 不包含script 
+16:31:26.226 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:31:26.227 DEBUG 模板titleBar处理用时: 7 毫秒! 
+16:31:26.228 DEBUG 处理模板: ./src/module/swiper.owo 
+16:31:26.236 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:31:26.236 DEBUG 模板swiper处理用时: 8 毫秒! 
+16:31:26.239 DEBUG 处理模板: ./src/module/newsList.owo 
+16:31:26.239 ERROR 模块: newsList 不包含script 
+16:31:26.245 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:31:26.245 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:31:26.251 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:26.254 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:26.254 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:31:26.254 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:26.257 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:26.257 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:26.257 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:31:26.260 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:26.262 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:26.262 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:26.262 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:31:26.263 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:31:26.264 ERROR 模块: newsCard 不包含script 
+16:31:26.269 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:31:26.269 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:31:26.273 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:26.273 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:26.274 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:26.275 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:26.276 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:26.279 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:26.281 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:26.281 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:26.281 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:31:26.281 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:31:26.287 DEBUG 发现 comment 规则: undefined 
+16:31:26.287 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:31:26.287 DEBUG 模板swiper2处理用时: 6 毫秒! 
+16:31:26.290 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:31:26.290 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:31:26.290 ERROR 模块: copyright 不包含script 
+16:31:26.293 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:31:26.293 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:31:26.299 DEBUG 缓存模板: ./src/page/home.page 
+16:31:26.299 DEBUG 模板home处理用时: 88 毫秒! 
+16:31:26.299 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:31:26.299 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:31:26.299 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:31:26.299 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:31:26.299 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:31:26.299 INFO  css中的资源处理完毕! 
+16:31:26.301 INFO  正在处理script! 
+16:31:26.301 INFO  工程中只有一个页面! 
+16:31:26.302 DEBUG 页面中不包含切换动画! 
+16:31:26.386 INFO  js中的资源处理完毕! 
+16:31:26.387 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:31:26.387 DEBUG 外部脚本数量: 4 
+16:31:26.387 DEBUG 处理脚本: swiper 
+16:31:26.387 DEBUG 不使用bable处理脚本! 
+16:31:26.387 DEBUG 处理脚本: jquery1.11.0 
+16:31:26.387 DEBUG 网络脚本: jquery1.11.0 
+16:31:26.387 DEBUG 处理脚本: roundabout 
+16:31:26.387 DEBUG 不使用bable处理脚本! 
+16:31:26.387 DEBUG 处理脚本: jquery.easing.1.3 
+16:31:26.387 DEBUG 不使用bable处理脚本! 
+16:31:26.387 DEBUG 输出scriptData 
+16:31:26.387 DEBUG 判断是否可以输出Html! 
+16:31:26.387 DEBUG 还有没有经过处理的资源! 
+16:31:26.627 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:31:26.628 DEBUG 判断是否可以输出Html! 
+16:31:26.628 DEBUG 准备输出html! 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:26.628 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:26.628 DEBUG 开始美化html 
+16:31:26.649 INFO  发送重新页面需要刷新命令! 
+16:31:53.384 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:31:53.384 INFO  --------------------------- 开始编译 --------------------------- 
+16:31:53.384 INFO  程序运行目录: D:\work\bjdqh 
+16:31:53.384 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:31:53.384 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:31:53.384 DEBUG 读取网页标题: 页面 
+16:31:53.384 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:31:53.385 DEBUG 处理模板: ./src/page/home.page 
+16:31:53.396 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:31:53.396 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:31:53.396 ERROR 模块: topBar 不包含script 
+16:31:53.400 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:31:53.400 DEBUG 模板topBar处理用时: 4 毫秒! 
+16:31:53.400 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:31:53.401 ERROR 模块: titleBar 不包含script 
+16:31:53.406 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:31:53.406 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:31:53.408 DEBUG 处理模板: ./src/module/swiper.owo 
+16:31:53.416 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:31:53.416 DEBUG 模板swiper处理用时: 8 毫秒! 
+16:31:53.421 DEBUG 处理模板: ./src/module/newsList.owo 
+16:31:53.421 ERROR 模块: newsList 不包含script 
+16:31:53.429 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:31:53.429 DEBUG 模板newsList处理用时: 8 毫秒! 
+16:31:53.433 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:53.437 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:53.437 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:31:53.438 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:53.441 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:53.441 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:53.441 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:31:53.442 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:53.445 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:53.445 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:53.445 DEBUG 模板imageBar3处理用时: 3 毫秒! 
+16:31:53.445 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:31:53.446 ERROR 模块: newsCard 不包含script 
+16:31:53.452 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:31:53.452 DEBUG 模板newsCard处理用时: 7 毫秒! 
+16:31:53.453 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:53.454 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:53.455 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:53.456 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:53.456 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:31:53.458 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:31:53.461 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:31:53.461 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:31:53.461 DEBUG 模板imageBar4处理用时: 3 毫秒! 
+16:31:53.462 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:31:53.468 DEBUG 发现 comment 规则: undefined 
+16:31:53.468 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:31:53.468 DEBUG 模板swiper2处理用时: 6 毫秒! 
+16:31:53.470 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:31:53.470 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:31:53.470 ERROR 模块: copyright 不包含script 
+16:31:53.472 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:31:53.472 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:31:53.479 DEBUG 缓存模板: ./src/page/home.page 
+16:31:53.479 DEBUG 模板home处理用时: 94 毫秒! 
+16:31:53.479 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:31:53.479 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:31:53.479 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:31:53.479 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:31:53.480 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:31:53.480 INFO  css中的资源处理完毕! 
+16:31:53.486 INFO  正在处理script! 
+16:31:53.487 INFO  工程中只有一个页面! 
+16:31:53.487 DEBUG 页面中不包含切换动画! 
+16:31:53.587 INFO  js中的资源处理完毕! 
+16:31:53.587 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:31:53.587 DEBUG 外部脚本数量: 4 
+16:31:53.587 DEBUG 处理脚本: swiper 
+16:31:53.587 DEBUG 不使用bable处理脚本! 
+16:31:53.587 DEBUG 处理脚本: jquery1.11.0 
+16:31:53.587 DEBUG 网络脚本: jquery1.11.0 
+16:31:53.587 DEBUG 处理脚本: roundabout 
+16:31:53.587 DEBUG 不使用bable处理脚本! 
+16:31:53.587 DEBUG 处理脚本: jquery.easing.1.3 
+16:31:53.587 DEBUG 不使用bable处理脚本! 
+16:31:53.587 DEBUG 输出scriptData 
+16:31:53.587 DEBUG 判断是否可以输出Html! 
+16:31:53.587 DEBUG 还有没有经过处理的资源! 
+16:31:53.712 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:31:53.712 DEBUG 判断是否可以输出Html! 
+16:31:53.712 DEBUG 准备输出html! 
+16:31:53.712 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:53.712 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:53.713 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:31:53.713 DEBUG 开始美化html 
+16:31:53.735 INFO  发送重新页面需要刷新命令! 
+16:32:27.951 INFO  file change: D:\work\bjdqh\src\page\home.page 
+16:32:27.951 INFO  --------------------------- 开始编译 --------------------------- 
+16:32:27.951 INFO  程序运行目录: D:\work\bjdqh 
+16:32:27.951 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
+16:32:27.951 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:32:27.951 DEBUG 读取网页标题: 页面 
+16:32:27.951 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:32:27.951 DEBUG 处理模板: ./src/page/home.page 
+16:32:27.964 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:32:27.964 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:32:27.964 ERROR 模块: topBar 不包含script 
+16:32:27.967 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:32:27.967 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:32:27.968 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:32:27.969 ERROR 模块: titleBar 不包含script 
+16:32:27.975 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:32:27.975 DEBUG 模板titleBar处理用时: 7 毫秒! 
+16:32:27.977 DEBUG 处理模板: ./src/module/swiper.owo 
+16:32:27.985 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:32:27.985 DEBUG 模板swiper处理用时: 8 毫秒! 
+16:32:27.988 DEBUG 处理模板: ./src/module/newsList.owo 
+16:32:27.988 ERROR 模块: newsList 不包含script 
+16:32:27.994 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:32:27.994 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:32:27.997 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:28.004 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:28.004 DEBUG 模板imageBar处理用时: 7 毫秒! 
+16:32:28.006 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:28.009 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:28.009 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:28.009 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:32:28.010 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:28.013 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:28.013 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:28.013 DEBUG 模板imageBar3处理用时: 3 毫秒! 
+16:32:28.014 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:32:28.014 ERROR 模块: newsCard 不包含script 
+16:32:28.021 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:32:28.021 DEBUG 模板newsCard处理用时: 7 毫秒! 
+16:32:28.022 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:28.024 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:28.025 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:28.025 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:28.026 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:28.028 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:28.030 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:28.030 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:28.030 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:32:28.030 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:32:28.037 DEBUG 发现 comment 规则: undefined 
+16:32:28.037 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:32:28.037 DEBUG 模板swiper2处理用时: 7 毫秒! 
+16:32:28.039 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:32:28.039 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:32:28.039 ERROR 模块: copyright 不包含script 
+16:32:28.041 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:32:28.041 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:32:28.046 DEBUG 缓存模板: ./src/page/home.page 
+16:32:28.046 DEBUG 模板home处理用时: 95 毫秒! 
+16:32:28.046 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:32:28.046 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:32:28.046 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:32:28.046 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:32:28.046 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:32:28.047 INFO  css中的资源处理完毕! 
+16:32:28.048 INFO  正在处理script! 
+16:32:28.048 INFO  工程中只有一个页面! 
+16:32:28.049 DEBUG 页面中不包含切换动画! 
+16:32:28.120 INFO  js中的资源处理完毕! 
+16:32:28.121 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:32:28.121 DEBUG 外部脚本数量: 4 
+16:32:28.121 DEBUG 处理脚本: swiper 
+16:32:28.121 DEBUG 不使用bable处理脚本! 
+16:32:28.122 DEBUG 处理脚本: jquery1.11.0 
+16:32:28.122 DEBUG 网络脚本: jquery1.11.0 
+16:32:28.122 DEBUG 处理脚本: roundabout 
+16:32:28.122 DEBUG 不使用bable处理脚本! 
+16:32:28.122 DEBUG 处理脚本: jquery.easing.1.3 
+16:32:28.122 DEBUG 不使用bable处理脚本! 
+16:32:28.122 DEBUG 输出scriptData 
+16:32:28.122 DEBUG 判断是否可以输出Html! 
+16:32:28.122 DEBUG 还有没有经过处理的资源! 
+16:32:28.288 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:32:28.293 DEBUG 判断是否可以输出Html! 
+16:32:28.293 DEBUG 准备输出html! 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:28.293 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:28.293 DEBUG 开始美化html 
+16:32:28.329 INFO  发送重新页面需要刷新命令! 
+16:32:54.126 INFO  file change: D:\work\bjdqh\src\page\home.page 
+16:32:54.127 INFO  --------------------------- 开始编译 --------------------------- 
+16:32:54.127 INFO  程序运行目录: D:\work\bjdqh 
+16:32:54.127 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
+16:32:54.127 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:32:54.127 DEBUG 读取网页标题: 页面 
+16:32:54.127 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:32:54.127 DEBUG 处理模板: ./src/page/home.page 
+16:32:54.138 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:32:54.139 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:32:54.139 ERROR 模块: topBar 不包含script 
+16:32:54.141 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:32:54.141 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:32:54.142 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:32:54.142 ERROR 模块: titleBar 不包含script 
+16:32:54.148 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:32:54.148 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:32:54.150 DEBUG 处理模板: ./src/module/swiper.owo 
+16:32:54.159 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:32:54.159 DEBUG 模板swiper处理用时: 9 毫秒! 
+16:32:54.162 DEBUG 处理模板: ./src/module/newsList.owo 
+16:32:54.162 ERROR 模块: newsList 不包含script 
+16:32:54.169 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:32:54.169 DEBUG 模板newsList处理用时: 7 毫秒! 
+16:32:54.170 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:54.174 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:54.174 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:32:54.175 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:54.177 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:54.177 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:54.177 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:32:54.178 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:54.180 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:54.180 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:54.180 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:32:54.180 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:32:54.181 ERROR 模块: newsCard 不包含script 
+16:32:54.187 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:32:54.187 DEBUG 模板newsCard处理用时: 7 毫秒! 
+16:32:54.189 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:54.190 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:54.191 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:54.191 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:54.192 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:32:54.193 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:32:54.195 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:32:54.195 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:32:54.195 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:32:54.195 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:32:54.203 DEBUG 发现 comment 规则: undefined 
+16:32:54.203 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:32:54.203 DEBUG 模板swiper2处理用时: 8 毫秒! 
+16:32:54.205 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:32:54.205 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:32:54.205 ERROR 模块: copyright 不包含script 
+16:32:54.207 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:32:54.207 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:32:54.215 DEBUG 缓存模板: ./src/page/home.page 
+16:32:54.215 DEBUG 模板home处理用时: 88 毫秒! 
+16:32:54.216 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:32:54.216 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:32:54.216 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:32:54.216 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:32:54.216 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:32:54.216 INFO  css中的资源处理完毕! 
+16:32:54.221 INFO  正在处理script! 
+16:32:54.222 INFO  工程中只有一个页面! 
+16:32:54.222 DEBUG 页面中不包含切换动画! 
+16:32:54.274 INFO  js中的资源处理完毕! 
+16:32:54.275 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:32:54.275 DEBUG 外部脚本数量: 4 
+16:32:54.275 DEBUG 处理脚本: swiper 
+16:32:54.275 DEBUG 不使用bable处理脚本! 
+16:32:54.275 DEBUG 处理脚本: jquery1.11.0 
+16:32:54.275 DEBUG 网络脚本: jquery1.11.0 
+16:32:54.275 DEBUG 处理脚本: roundabout 
+16:32:54.275 DEBUG 不使用bable处理脚本! 
+16:32:54.275 DEBUG 处理脚本: jquery.easing.1.3 
+16:32:54.275 DEBUG 不使用bable处理脚本! 
+16:32:54.275 DEBUG 输出scriptData 
+16:32:54.275 DEBUG 判断是否可以输出Html! 
+16:32:54.275 DEBUG 还有没有经过处理的资源! 
+16:32:54.391 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:32:54.391 DEBUG 判断是否可以输出Html! 
+16:32:54.391 DEBUG 准备输出html! 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:54.391 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:32:54.391 DEBUG 开始美化html 
+16:32:54.406 INFO  发送重新页面需要刷新命令! 
+16:33:12.527 INFO  file change: D:\work\bjdqh\src\page\home.page 
+16:33:12.527 INFO  --------------------------- 开始编译 --------------------------- 
+16:33:12.527 INFO  程序运行目录: D:\work\bjdqh 
+16:33:12.527 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
+16:33:12.527 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:33:12.528 DEBUG 读取网页标题: 页面 
+16:33:12.528 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:33:12.528 DEBUG 处理模板: ./src/page/home.page 
+16:33:12.536 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:33:12.536 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:33:12.537 ERROR 模块: topBar 不包含script 
+16:33:12.540 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:33:12.540 DEBUG 模板topBar处理用时: 4 毫秒! 
+16:33:12.541 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:33:12.541 ERROR 模块: titleBar 不包含script 
+16:33:12.547 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:33:12.547 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:33:12.549 DEBUG 处理模板: ./src/module/swiper.owo 
+16:33:12.556 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:33:12.556 DEBUG 模板swiper处理用时: 7 毫秒! 
+16:33:12.559 DEBUG 处理模板: ./src/module/newsList.owo 
+16:33:12.559 ERROR 模块: newsList 不包含script 
+16:33:12.565 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:33:12.565 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:33:12.571 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:33:12.574 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:33:12.574 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:33:12.575 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:33:12.578 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:33:12.578 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:33:12.578 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:33:12.579 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:33:12.581 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:33:12.581 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:33:12.581 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:33:12.581 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:33:12.581 ERROR 模块: newsCard 不包含script 
+16:33:12.587 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:33:12.587 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:33:12.588 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:33:12.588 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:33:12.589 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:33:12.590 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:33:12.591 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:33:12.592 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:33:12.593 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:33:12.594 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:33:12.594 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:33:12.594 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:33:12.602 DEBUG 发现 comment 规则: undefined 
+16:33:12.602 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:33:12.602 DEBUG 模板swiper2处理用时: 8 毫秒! 
+16:33:12.604 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:33:12.604 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:33:12.604 ERROR 模块: copyright 不包含script 
+16:33:12.606 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:33:12.606 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:33:12.614 DEBUG 缓存模板: ./src/page/home.page 
+16:33:12.614 DEBUG 模板home处理用时: 86 毫秒! 
+16:33:12.615 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:33:12.615 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:33:12.615 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:33:12.615 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:33:12.615 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:33:12.615 INFO  css中的资源处理完毕! 
+16:33:12.620 INFO  正在处理script! 
+16:33:12.620 INFO  工程中只有一个页面! 
+16:33:12.620 DEBUG 页面中不包含切换动画! 
+16:33:12.710 INFO  js中的资源处理完毕! 
+16:33:12.711 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:33:12.711 DEBUG 外部脚本数量: 4 
+16:33:12.711 DEBUG 处理脚本: swiper 
+16:33:12.711 DEBUG 不使用bable处理脚本! 
+16:33:12.711 DEBUG 处理脚本: jquery1.11.0 
+16:33:12.711 DEBUG 网络脚本: jquery1.11.0 
+16:33:12.711 DEBUG 处理脚本: roundabout 
+16:33:12.711 DEBUG 不使用bable处理脚本! 
+16:33:12.711 DEBUG 处理脚本: jquery.easing.1.3 
+16:33:12.711 DEBUG 不使用bable处理脚本! 
+16:33:12.711 DEBUG 输出scriptData 
+16:33:12.711 DEBUG 判断是否可以输出Html! 
+16:33:12.711 DEBUG 还有没有经过处理的资源! 
+16:33:12.835 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:33:12.836 DEBUG 判断是否可以输出Html! 
+16:33:12.836 DEBUG 准备输出html! 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:33:12.836 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:33:12.836 DEBUG 开始美化html 
+16:33:12.849 INFO  发送重新页面需要刷新命令! 
+16:34:05.446 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:34:05.447 INFO  --------------------------- 开始编译 --------------------------- 
+16:34:05.447 INFO  程序运行目录: D:\work\bjdqh 
+16:34:05.447 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:34:05.447 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:34:05.448 DEBUG 读取网页标题: 页面 
+16:34:05.448 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:34:05.448 DEBUG 处理模板: ./src/page/home.page 
+16:34:05.466 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:34:05.466 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:34:05.466 ERROR 模块: topBar 不包含script 
+16:34:05.470 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:34:05.470 DEBUG 模板topBar处理用时: 4 毫秒! 
+16:34:05.471 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:34:05.471 ERROR 模块: titleBar 不包含script 
+16:34:05.477 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:34:05.477 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:34:05.480 DEBUG 处理模板: ./src/module/swiper.owo 
+16:34:05.487 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:34:05.487 DEBUG 模板swiper处理用时: 7 毫秒! 
+16:34:05.492 DEBUG 处理模板: ./src/module/newsList.owo 
+16:34:05.492 ERROR 模块: newsList 不包含script 
+16:34:05.499 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:34:05.499 DEBUG 模板newsList处理用时: 7 毫秒! 
+16:34:05.502 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:05.505 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:05.505 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:34:05.505 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:05.509 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:05.509 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:05.509 DEBUG 模板imageBar2处理用时: 4 毫秒! 
+16:34:05.510 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:05.512 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:05.512 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:05.512 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:34:05.513 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:34:05.513 ERROR 模块: newsCard 不包含script 
+16:34:05.519 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:34:05.519 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:34:05.520 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:05.521 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:05.524 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:05.525 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:05.526 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:05.528 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:05.530 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:05.530 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:05.530 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:34:05.531 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:34:05.539 DEBUG 发现 comment 规则: undefined 
+16:34:05.539 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:34:05.539 DEBUG 模板swiper2处理用时: 8 毫秒! 
+16:34:05.541 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:34:05.542 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:34:05.542 ERROR 模块: copyright 不包含script 
+16:34:05.544 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:34:05.544 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:34:05.549 DEBUG 缓存模板: ./src/page/home.page 
+16:34:05.549 DEBUG 模板home处理用时: 101 毫秒! 
+16:34:05.549 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:34:05.549 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:34:05.549 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:34:05.549 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:34:05.549 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:34:05.549 INFO  css中的资源处理完毕! 
+16:34:05.554 INFO  正在处理script! 
+16:34:05.554 INFO  工程中只有一个页面! 
+16:34:05.554 DEBUG 页面中不包含切换动画! 
+16:34:05.663 INFO  js中的资源处理完毕! 
+16:34:05.664 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:34:05.664 DEBUG 外部脚本数量: 4 
+16:34:05.664 DEBUG 处理脚本: swiper 
+16:34:05.664 DEBUG 不使用bable处理脚本! 
+16:34:05.664 DEBUG 处理脚本: jquery1.11.0 
+16:34:05.664 DEBUG 网络脚本: jquery1.11.0 
+16:34:05.664 DEBUG 处理脚本: roundabout 
+16:34:05.664 DEBUG 不使用bable处理脚本! 
+16:34:05.664 DEBUG 处理脚本: jquery.easing.1.3 
+16:34:05.664 DEBUG 不使用bable处理脚本! 
+16:34:05.664 DEBUG 输出scriptData 
+16:34:05.664 DEBUG 判断是否可以输出Html! 
+16:34:05.664 DEBUG 还有没有经过处理的资源! 
+16:34:05.821 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:34:05.821 DEBUG 判断是否可以输出Html! 
+16:34:05.821 DEBUG 准备输出html! 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:05.821 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:05.821 DEBUG 开始美化html 
+16:34:05.848 INFO  发送重新页面需要刷新命令! 
+16:34:44.810 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:34:44.811 INFO  --------------------------- 开始编译 --------------------------- 
+16:34:44.811 INFO  程序运行目录: D:\work\bjdqh 
+16:34:44.811 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:34:44.811 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:34:44.811 DEBUG 读取网页标题: 页面 
+16:34:44.811 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:34:44.811 DEBUG 处理模板: ./src/page/home.page 
+16:34:44.824 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:34:44.825 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:34:44.825 ERROR 模块: topBar 不包含script 
+16:34:44.827 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:34:44.827 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:34:44.828 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:34:44.828 ERROR 模块: titleBar 不包含script 
+16:34:44.833 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:34:44.833 DEBUG 模板titleBar处理用时: 5 毫秒! 
+16:34:44.834 DEBUG 处理模板: ./src/module/swiper.owo 
+16:34:44.843 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:34:44.843 DEBUG 模板swiper处理用时: 9 毫秒! 
+16:34:44.846 DEBUG 处理模板: ./src/module/newsList.owo 
+16:34:44.846 ERROR 模块: newsList 不包含script 
+16:34:44.855 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:34:44.855 DEBUG 模板newsList处理用时: 9 毫秒! 
+16:34:44.858 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:44.863 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:44.863 DEBUG 模板imageBar处理用时: 5 毫秒! 
+16:34:44.863 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:44.864 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:44.864 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:44.864 DEBUG 模板imageBar2处理用时: 1 毫秒! 
+16:34:44.865 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:44.868 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:44.868 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:44.868 DEBUG 模板imageBar3处理用时: 3 毫秒! 
+16:34:44.868 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:34:44.868 ERROR 模块: newsCard 不包含script 
+16:34:44.874 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:34:44.874 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:34:44.875 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:44.876 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:44.880 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:44.881 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:44.883 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:34:44.883 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:34:44.887 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:34:44.887 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:34:44.887 DEBUG 模板imageBar4处理用时: 4 毫秒! 
+16:34:44.888 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:34:44.893 DEBUG 发现 comment 规则: undefined 
+16:34:44.893 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:34:44.893 DEBUG 模板swiper2处理用时: 5 毫秒! 
+16:34:44.895 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:34:44.896 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:34:44.896 ERROR 模块: copyright 不包含script 
+16:34:44.899 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:34:44.899 DEBUG 模板copyright处理用时: 4 毫秒! 
+16:34:44.906 DEBUG 缓存模板: ./src/page/home.page 
+16:34:44.907 DEBUG 模板home处理用时: 96 毫秒! 
+16:34:44.907 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:34:44.907 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:34:44.907 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:34:44.907 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:34:44.907 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:34:44.907 INFO  css中的资源处理完毕! 
+16:34:44.912 INFO  正在处理script! 
+16:34:44.912 INFO  工程中只有一个页面! 
+16:34:44.913 DEBUG 页面中不包含切换动画! 
+16:34:45.009 INFO  js中的资源处理完毕! 
+16:34:45.009 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:34:45.009 DEBUG 外部脚本数量: 4 
+16:34:45.009 DEBUG 处理脚本: swiper 
+16:34:45.009 DEBUG 不使用bable处理脚本! 
+16:34:45.009 DEBUG 处理脚本: jquery1.11.0 
+16:34:45.009 DEBUG 网络脚本: jquery1.11.0 
+16:34:45.009 DEBUG 处理脚本: roundabout 
+16:34:45.009 DEBUG 不使用bable处理脚本! 
+16:34:45.009 DEBUG 处理脚本: jquery.easing.1.3 
+16:34:45.009 DEBUG 不使用bable处理脚本! 
+16:34:45.009 DEBUG 输出scriptData 
+16:34:45.009 DEBUG 判断是否可以输出Html! 
+16:34:45.009 DEBUG 还有没有经过处理的资源! 
+16:34:45.135 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:34:45.135 DEBUG 判断是否可以输出Html! 
+16:34:45.135 DEBUG 准备输出html! 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:45.135 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:34:45.135 DEBUG 开始美化html 
+16:34:45.170 INFO  发送重新页面需要刷新命令! 
+16:35:12.702 INFO  file change: D:\work\bjdqh\src\page\home.page 
+16:35:12.702 INFO  --------------------------- 开始编译 --------------------------- 
+16:35:12.702 INFO  程序运行目录: D:\work\bjdqh 
+16:35:12.702 INFO  刷新模式,变化目录: D:\work\bjdqh\src\page\home.page 
+16:35:12.702 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:35:12.702 DEBUG 读取网页标题: 页面 
+16:35:12.702 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:35:12.702 DEBUG 处理模板: ./src/page/home.page 
+16:35:12.710 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:35:12.711 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:35:12.711 ERROR 模块: topBar 不包含script 
+16:35:12.715 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:35:12.715 DEBUG 模板topBar处理用时: 5 毫秒! 
+16:35:12.716 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:35:12.716 ERROR 模块: titleBar 不包含script 
+16:35:12.721 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:35:12.721 DEBUG 模板titleBar处理用时: 5 毫秒! 
+16:35:12.723 DEBUG 处理模板: ./src/module/swiper.owo 
+16:35:12.729 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:35:12.729 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:35:12.731 DEBUG 处理模板: ./src/module/newsList.owo 
+16:35:12.732 ERROR 模块: newsList 不包含script 
+16:35:12.739 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:35:12.739 DEBUG 模板newsList处理用时: 8 毫秒! 
+16:35:12.742 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:12.745 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:12.745 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:35:12.747 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:12.749 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:12.749 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:12.749 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:35:12.750 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:12.753 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:12.753 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:12.753 DEBUG 模板imageBar3处理用时: 3 毫秒! 
+16:35:12.753 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:35:12.753 ERROR 模块: newsCard 不包含script 
+16:35:12.758 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:35:12.758 DEBUG 模板newsCard处理用时: 5 毫秒! 
+16:35:12.759 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:12.760 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:12.760 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:12.761 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:12.763 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:12.763 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:12.765 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:12.765 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:12.765 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:35:12.766 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:35:12.772 DEBUG 发现 comment 规则: undefined 
+16:35:12.772 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:35:12.773 DEBUG 模板swiper2处理用时: 6 毫秒! 
+16:35:12.778 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:35:12.778 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:35:12.778 ERROR 模块: copyright 不包含script 
+16:35:12.780 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:35:12.780 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:35:12.786 DEBUG 缓存模板: ./src/page/home.page 
+16:35:12.786 DEBUG 模板home处理用时: 84 毫秒! 
+16:35:12.787 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:35:12.787 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:35:12.787 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:35:12.787 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:35:12.787 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:35:12.787 INFO  css中的资源处理完毕! 
+16:35:12.790 INFO  正在处理script! 
+16:35:12.790 INFO  工程中只有一个页面! 
+16:35:12.791 DEBUG 页面中不包含切换动画! 
+16:35:12.859 INFO  js中的资源处理完毕! 
+16:35:12.859 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:35:12.859 DEBUG 外部脚本数量: 4 
+16:35:12.859 DEBUG 处理脚本: swiper 
+16:35:12.860 DEBUG 不使用bable处理脚本! 
+16:35:12.860 DEBUG 处理脚本: jquery1.11.0 
+16:35:12.860 DEBUG 网络脚本: jquery1.11.0 
+16:35:12.860 DEBUG 处理脚本: roundabout 
+16:35:12.860 DEBUG 不使用bable处理脚本! 
+16:35:12.860 DEBUG 处理脚本: jquery.easing.1.3 
+16:35:12.860 DEBUG 不使用bable处理脚本! 
+16:35:12.860 DEBUG 输出scriptData 
+16:35:12.860 DEBUG 判断是否可以输出Html! 
+16:35:12.860 DEBUG 还有没有经过处理的资源! 
+16:35:13.005 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:35:13.006 DEBUG 判断是否可以输出Html! 
+16:35:13.006 DEBUG 准备输出html! 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:13.006 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:13.006 DEBUG 开始美化html 
+16:35:13.026 INFO  发送重新页面需要刷新命令! 
+16:35:50.403 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:35:50.404 INFO  --------------------------- 开始编译 --------------------------- 
+16:35:50.404 INFO  程序运行目录: D:\work\bjdqh 
+16:35:50.404 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:35:50.404 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:35:50.404 DEBUG 读取网页标题: 页面 
+16:35:50.404 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:35:50.404 DEBUG 处理模板: ./src/page/home.page 
+16:35:50.420 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:35:50.420 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:35:50.420 ERROR 模块: topBar 不包含script 
+16:35:50.422 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:35:50.422 DEBUG 模板topBar处理用时: 2 毫秒! 
+16:35:50.423 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:35:50.423 ERROR 模块: titleBar 不包含script 
+16:35:50.428 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:35:50.428 DEBUG 模板titleBar处理用时: 5 毫秒! 
+16:35:50.431 DEBUG 处理模板: ./src/module/swiper.owo 
+16:35:50.437 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:35:50.437 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:35:50.442 DEBUG 处理模板: ./src/module/newsList.owo 
+16:35:50.442 ERROR 模块: newsList 不包含script 
+16:35:50.448 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:35:50.448 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:35:50.451 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:50.456 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:50.456 DEBUG 模板imageBar处理用时: 5 毫秒! 
+16:35:50.458 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:50.462 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:50.462 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:50.462 DEBUG 模板imageBar2处理用时: 4 毫秒! 
+16:35:50.465 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:50.467 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:50.467 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:50.467 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:35:50.467 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:35:50.467 ERROR 模块: newsCard 不包含script 
+16:35:50.472 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:35:50.472 DEBUG 模板newsCard处理用时: 5 毫秒! 
+16:35:50.473 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:50.474 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:50.475 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:50.476 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:50.477 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:35:50.478 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:35:50.480 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:35:50.480 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:35:50.480 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:35:50.481 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:35:50.485 DEBUG 发现 comment 规则: undefined 
+16:35:50.485 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:35:50.485 DEBUG 模板swiper2处理用时: 4 毫秒! 
+16:35:50.487 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:35:50.487 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:35:50.487 ERROR 模块: copyright 不包含script 
+16:35:50.491 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:35:50.491 DEBUG 模板copyright处理用时: 4 毫秒! 
+16:35:50.497 DEBUG 缓存模板: ./src/page/home.page 
+16:35:50.497 DEBUG 模板home处理用时: 93 毫秒! 
+16:35:50.497 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:35:50.497 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:35:50.497 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:35:50.497 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:35:50.497 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:35:50.497 INFO  css中的资源处理完毕! 
+16:35:50.503 INFO  正在处理script! 
+16:35:50.503 INFO  工程中只有一个页面! 
+16:35:50.503 DEBUG 页面中不包含切换动画! 
+16:35:50.610 INFO  js中的资源处理完毕! 
+16:35:50.611 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:35:50.611 DEBUG 外部脚本数量: 4 
+16:35:50.611 DEBUG 处理脚本: swiper 
+16:35:50.611 DEBUG 不使用bable处理脚本! 
+16:35:50.611 DEBUG 处理脚本: jquery1.11.0 
+16:35:50.611 DEBUG 网络脚本: jquery1.11.0 
+16:35:50.611 DEBUG 处理脚本: roundabout 
+16:35:50.611 DEBUG 不使用bable处理脚本! 
+16:35:50.611 DEBUG 处理脚本: jquery.easing.1.3 
+16:35:50.611 DEBUG 不使用bable处理脚本! 
+16:35:50.611 DEBUG 输出scriptData 
+16:35:50.611 DEBUG 判断是否可以输出Html! 
+16:35:50.611 DEBUG 还有没有经过处理的资源! 
+16:35:50.746 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:35:50.746 DEBUG 判断是否可以输出Html! 
+16:35:50.746 DEBUG 准备输出html! 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:50.747 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:35:50.747 DEBUG 开始美化html 
+16:35:50.773 INFO  发送重新页面需要刷新命令! 
+16:36:36.482 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:36:36.483 INFO  --------------------------- 开始编译 --------------------------- 
+16:36:36.483 INFO  程序运行目录: D:\work\bjdqh 
+16:36:36.483 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:36:36.483 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:36:36.483 DEBUG 读取网页标题: 页面 
+16:36:36.483 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:36:36.483 DEBUG 处理模板: ./src/page/home.page 
+16:36:36.499 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:36:36.499 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:36:36.500 ERROR 模块: topBar 不包含script 
+16:36:36.503 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:36:36.503 DEBUG 模板topBar处理用时: 4 毫秒! 
+16:36:36.504 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:36:36.504 ERROR 模块: titleBar 不包含script 
+16:36:36.508 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:36:36.508 DEBUG 模板titleBar处理用时: 4 毫秒! 
+16:36:36.509 DEBUG 处理模板: ./src/module/swiper.owo 
+16:36:36.516 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:36:36.516 DEBUG 模板swiper处理用时: 7 毫秒! 
+16:36:36.517 DEBUG 处理模板: ./src/module/newsList.owo 
+16:36:36.518 ERROR 模块: newsList 不包含script 
+16:36:36.522 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:36:36.523 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:36:36.525 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:36.529 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:36.529 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:36:36.529 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:36.532 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:36.532 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:36.532 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:36:36.532 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:36.533 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:36.533 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:36.533 DEBUG 模板imageBar3处理用时: 1 毫秒! 
+16:36:36.534 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:36:36.534 ERROR 模块: newsCard 不包含script 
+16:36:36.541 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:36:36.541 DEBUG 模板newsCard处理用时: 7 毫秒! 
+16:36:36.543 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:36.544 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:36.544 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:36.545 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:36.547 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:36.548 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:36.550 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:36.550 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:36.550 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:36:36.551 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:36:36.562 DEBUG 发现 comment 规则: undefined 
+16:36:36.562 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:36:36.562 DEBUG 模板swiper2处理用时: 11 毫秒! 
+16:36:36.565 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:36:36.565 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:36:36.565 ERROR 模块: copyright 不包含script 
+16:36:36.568 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:36:36.569 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:36:36.575 DEBUG 缓存模板: ./src/page/home.page 
+16:36:36.576 DEBUG 模板home处理用时: 93 毫秒! 
+16:36:36.576 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:36:36.576 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:36:36.576 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:36:36.576 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:36:36.576 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:36:36.576 INFO  css中的资源处理完毕! 
+16:36:36.581 INFO  正在处理script! 
+16:36:36.581 INFO  工程中只有一个页面! 
+16:36:36.582 DEBUG 页面中不包含切换动画! 
+16:36:36.679 INFO  js中的资源处理完毕! 
+16:36:36.680 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:36:36.680 DEBUG 外部脚本数量: 4 
+16:36:36.680 DEBUG 处理脚本: swiper 
+16:36:36.680 DEBUG 不使用bable处理脚本! 
+16:36:36.680 DEBUG 处理脚本: jquery1.11.0 
+16:36:36.680 DEBUG 网络脚本: jquery1.11.0 
+16:36:36.680 DEBUG 处理脚本: roundabout 
+16:36:36.680 DEBUG 不使用bable处理脚本! 
+16:36:36.680 DEBUG 处理脚本: jquery.easing.1.3 
+16:36:36.680 DEBUG 不使用bable处理脚本! 
+16:36:36.680 DEBUG 输出scriptData 
+16:36:36.681 DEBUG 判断是否可以输出Html! 
+16:36:36.681 DEBUG 还有没有经过处理的资源! 
+16:36:36.808 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:36:36.808 DEBUG 判断是否可以输出Html! 
+16:36:36.808 DEBUG 准备输出html! 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:36.808 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:36.809 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:36.809 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:36.809 DEBUG 开始美化html 
+16:36:36.839 INFO  发送重新页面需要刷新命令! 
+16:36:38.149 INFO  file change: D:\work\bjdqh\src\module\imageBar.owo 
+16:36:38.150 INFO  --------------------------- 开始编译 --------------------------- 
+16:36:38.150 INFO  程序运行目录: D:\work\bjdqh 
+16:36:38.150 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\imageBar.owo 
+16:36:38.150 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:36:38.150 DEBUG 读取网页标题: 页面 
+16:36:38.150 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:36:38.150 DEBUG 处理模板: ./src/page/home.page 
+16:36:38.158 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:36:38.158 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:36:38.158 ERROR 模块: topBar 不包含script 
+16:36:38.161 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:36:38.161 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:36:38.162 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:36:38.162 ERROR 模块: titleBar 不包含script 
+16:36:38.168 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:36:38.168 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:36:38.169 DEBUG 处理模板: ./src/module/swiper.owo 
+16:36:38.174 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:36:38.174 DEBUG 模板swiper处理用时: 5 毫秒! 
+16:36:38.176 DEBUG 处理模板: ./src/module/newsList.owo 
+16:36:38.176 ERROR 模块: newsList 不包含script 
+16:36:38.184 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:36:38.184 DEBUG 模板newsList处理用时: 8 毫秒! 
+16:36:38.191 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:38.194 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:38.194 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:36:38.195 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:38.198 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:38.198 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:38.198 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:36:38.200 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:38.202 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:38.202 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:38.202 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:36:38.202 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:36:38.202 ERROR 模块: newsCard 不包含script 
+16:36:38.211 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:36:38.211 DEBUG 模板newsCard处理用时: 9 毫秒! 
+16:36:38.212 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:38.213 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:38.214 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:38.214 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:38.215 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:36:38.216 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:36:38.218 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:36:38.218 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:36:38.218 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:36:38.218 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:36:38.228 DEBUG 发现 comment 规则: undefined 
+16:36:38.228 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:36:38.228 DEBUG 模板swiper2处理用时: 10 毫秒! 
+16:36:38.230 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:36:38.230 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:36:38.230 ERROR 模块: copyright 不包含script 
+16:36:38.234 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:36:38.234 DEBUG 模板copyright处理用时: 4 毫秒! 
+16:36:38.241 DEBUG 缓存模板: ./src/page/home.page 
+16:36:38.241 DEBUG 模板home处理用时: 91 毫秒! 
+16:36:38.242 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:36:38.242 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:36:38.242 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:36:38.242 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:36:38.242 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:36:38.242 INFO  css中的资源处理完毕! 
+16:36:38.245 INFO  正在处理script! 
+16:36:38.245 INFO  工程中只有一个页面! 
+16:36:38.245 DEBUG 页面中不包含切换动画! 
+16:36:38.310 INFO  js中的资源处理完毕! 
+16:36:38.311 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:36:38.311 DEBUG 外部脚本数量: 4 
+16:36:38.311 DEBUG 处理脚本: swiper 
+16:36:38.311 DEBUG 不使用bable处理脚本! 
+16:36:38.311 DEBUG 处理脚本: jquery1.11.0 
+16:36:38.311 DEBUG 网络脚本: jquery1.11.0 
+16:36:38.311 DEBUG 处理脚本: roundabout 
+16:36:38.311 DEBUG 不使用bable处理脚本! 
+16:36:38.311 DEBUG 处理脚本: jquery.easing.1.3 
+16:36:38.311 DEBUG 不使用bable处理脚本! 
+16:36:38.311 DEBUG 输出scriptData 
+16:36:38.311 DEBUG 判断是否可以输出Html! 
+16:36:38.311 DEBUG 还有没有经过处理的资源! 
+16:36:38.476 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:36:38.476 DEBUG 判断是否可以输出Html! 
+16:36:38.476 DEBUG 准备输出html! 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:38.477 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:36:38.477 DEBUG 开始美化html 
+16:36:38.497 INFO  发送重新页面需要刷新命令! 
+16:40:36.785 INFO  file change: D:\work\bjdqh\src\module\swiper.owo 
+16:40:36.786 INFO  --------------------------- 开始编译 --------------------------- 
+16:40:36.786 INFO  程序运行目录: D:\work\bjdqh 
+16:40:36.786 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\swiper.owo 
+16:40:36.786 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:40:36.786 DEBUG 读取网页标题: 页面 
+16:40:36.786 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:40:36.786 DEBUG 处理模板: ./src/page/home.page 
+16:40:36.797 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:40:36.797 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:40:36.798 ERROR 模块: topBar 不包含script 
+16:40:36.800 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:40:36.800 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:40:36.801 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:40:36.801 ERROR 模块: titleBar 不包含script 
+16:40:36.808 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:40:36.808 DEBUG 模板titleBar处理用时: 7 毫秒! 
+16:40:36.809 DEBUG 处理模板: ./src/module/swiper.owo 
+16:40:36.815 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:40:36.815 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:40:36.820 DEBUG 处理模板: ./src/module/newsList.owo 
+16:40:36.820 ERROR 模块: newsList 不包含script 
+16:40:36.826 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:40:36.826 DEBUG 模板newsList处理用时: 6 毫秒! 
+16:40:36.827 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:40:36.830 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:40:36.830 DEBUG 模板imageBar处理用时: 3 毫秒! 
+16:40:36.831 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:40:36.834 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:40:36.834 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:40:36.834 DEBUG 模板imageBar2处理用时: 3 毫秒! 
+16:40:36.835 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:40:36.836 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:40:36.837 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:40:36.837 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:40:36.837 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:40:36.837 ERROR 模块: newsCard 不包含script 
+16:40:36.842 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:40:36.842 DEBUG 模板newsCard处理用时: 5 毫秒! 
+16:40:36.845 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:40:36.846 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:40:36.846 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:40:36.847 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:40:36.848 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:40:36.849 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:40:36.852 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:40:36.852 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:40:36.852 DEBUG 模板imageBar4处理用时: 3 毫秒! 
+16:40:36.852 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:40:36.860 DEBUG 发现 comment 规则: undefined 
+16:40:36.860 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:40:36.860 DEBUG 模板swiper2处理用时: 8 毫秒! 
+16:40:36.862 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:40:36.862 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:40:36.862 ERROR 模块: copyright 不包含script 
+16:40:36.865 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:40:36.865 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:40:36.871 DEBUG 缓存模板: ./src/page/home.page 
+16:40:36.872 DEBUG 模板home处理用时: 86 毫秒! 
+16:40:36.872 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:40:36.872 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:40:36.872 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:40:36.872 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:40:36.872 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:40:36.872 INFO  css中的资源处理完毕! 
+16:40:36.876 INFO  正在处理script! 
+16:40:36.877 INFO  工程中只有一个页面! 
+16:40:36.877 DEBUG 页面中不包含切换动画! 
+16:40:36.968 INFO  js中的资源处理完毕! 
+16:40:36.969 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:40:36.969 DEBUG 外部脚本数量: 4 
+16:40:36.969 DEBUG 处理脚本: swiper 
+16:40:36.969 DEBUG 不使用bable处理脚本! 
+16:40:36.969 DEBUG 处理脚本: jquery1.11.0 
+16:40:36.969 DEBUG 网络脚本: jquery1.11.0 
+16:40:36.969 DEBUG 处理脚本: roundabout 
+16:40:36.969 DEBUG 不使用bable处理脚本! 
+16:40:36.969 DEBUG 处理脚本: jquery.easing.1.3 
+16:40:36.969 DEBUG 不使用bable处理脚本! 
+16:40:36.969 DEBUG 输出scriptData 
+16:40:36.969 DEBUG 判断是否可以输出Html! 
+16:40:36.969 DEBUG 还有没有经过处理的资源! 
+16:40:37.137 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:40:37.140 DEBUG 判断是否可以输出Html! 
+16:40:37.141 DEBUG 准备输出html! 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:40:37.141 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:40:37.141 DEBUG 开始美化html 
+16:40:37.172 INFO  发送重新页面需要刷新命令! 
+16:53:58.110 INFO  file change: D:\work\bjdqh\src\module\swiper.owo 
+16:53:58.111 INFO  --------------------------- 开始编译 --------------------------- 
+16:53:58.111 INFO  程序运行目录: D:\work\bjdqh 
+16:53:58.111 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\swiper.owo 
+16:53:58.111 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:53:58.111 DEBUG 读取网页标题: 页面 
+16:53:58.111 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:53:58.111 DEBUG 处理模板: ./src/page/home.page 
+16:53:58.123 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:53:58.123 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:53:58.123 ERROR 模块: topBar 不包含script 
+16:53:58.126 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:53:58.126 DEBUG 模板topBar处理用时: 3 毫秒! 
+16:53:58.128 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:53:58.128 ERROR 模块: titleBar 不包含script 
+16:53:58.133 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:53:58.133 DEBUG 模板titleBar处理用时: 5 毫秒! 
+16:53:58.134 DEBUG 处理模板: ./src/module/swiper.owo 
+16:53:58.142 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:53:58.142 DEBUG 模板swiper处理用时: 8 毫秒! 
+16:53:58.150 DEBUG 处理模板: ./src/module/newsList.owo 
+16:53:58.150 ERROR 模块: newsList 不包含script 
+16:53:58.155 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:53:58.155 DEBUG 模板newsList处理用时: 5 毫秒! 
+16:53:58.161 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:53:58.165 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:53:58.165 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:53:58.165 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:53:58.167 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:53:58.167 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:53:58.167 DEBUG 模板imageBar2处理用时: 2 毫秒! 
+16:53:58.169 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:53:58.170 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:53:58.170 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:53:58.170 DEBUG 模板imageBar3处理用时: 1 毫秒! 
+16:53:58.171 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:53:58.172 ERROR 模块: newsCard 不包含script 
+16:53:58.181 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:53:58.181 DEBUG 模板newsCard处理用时: 10 毫秒! 
+16:53:58.184 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:53:58.185 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:53:58.185 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:53:58.186 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:53:58.187 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:53:58.188 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:53:58.190 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:53:58.190 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:53:58.190 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:53:58.191 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:53:58.197 DEBUG 发现 comment 规则: undefined 
+16:53:58.198 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:53:58.198 DEBUG 模板swiper2处理用时: 7 毫秒! 
+16:53:58.202 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:53:58.202 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:53:58.202 ERROR 模块: copyright 不包含script 
+16:53:58.204 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:53:58.204 DEBUG 模板copyright处理用时: 2 毫秒! 
+16:53:58.210 DEBUG 缓存模板: ./src/page/home.page 
+16:53:58.211 DEBUG 模板home处理用时: 100 毫秒! 
+16:53:58.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:53:58.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:53:58.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:53:58.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:53:58.211 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:53:58.211 INFO  css中的资源处理完毕! 
+16:53:58.218 INFO  正在处理script! 
+16:53:58.218 INFO  工程中只有一个页面! 
+16:53:58.219 DEBUG 页面中不包含切换动画! 
+16:53:58.345 INFO  js中的资源处理完毕! 
+16:53:58.345 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:53:58.345 DEBUG 外部脚本数量: 4 
+16:53:58.345 DEBUG 处理脚本: swiper 
+16:53:58.345 DEBUG 不使用bable处理脚本! 
+16:53:58.345 DEBUG 处理脚本: jquery1.11.0 
+16:53:58.345 DEBUG 网络脚本: jquery1.11.0 
+16:53:58.345 DEBUG 处理脚本: roundabout 
+16:53:58.345 DEBUG 不使用bable处理脚本! 
+16:53:58.345 DEBUG 处理脚本: jquery.easing.1.3 
+16:53:58.345 DEBUG 不使用bable处理脚本! 
+16:53:58.345 DEBUG 输出scriptData 
+16:53:58.345 DEBUG 判断是否可以输出Html! 
+16:53:58.345 DEBUG 还有没有经过处理的资源! 
+16:53:58.484 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:53:58.484 DEBUG 判断是否可以输出Html! 
+16:53:58.484 DEBUG 准备输出html! 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:53:58.484 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:53:58.484 DEBUG 开始美化html 
+16:53:58.510 INFO  发送重新页面需要刷新命令! 
+16:54:35.177 INFO  file change: D:\work\bjdqh\src\module\swiper.owo 
+16:54:35.177 INFO  --------------------------- 开始编译 --------------------------- 
+16:54:35.177 INFO  程序运行目录: D:\work\bjdqh 
+16:54:35.177 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\swiper.owo 
+16:54:35.177 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:54:35.178 DEBUG 读取网页标题: 页面 
+16:54:35.178 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:54:35.178 DEBUG 处理模板: ./src/page/home.page 
+16:54:35.187 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:54:35.188 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:54:35.188 ERROR 模块: topBar 不包含script 
+16:54:35.195 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:54:35.195 DEBUG 模板topBar处理用时: 8 毫秒! 
+16:54:35.196 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:54:35.196 ERROR 模块: titleBar 不包含script 
+16:54:35.202 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:54:35.202 DEBUG 模板titleBar处理用时: 6 毫秒! 
+16:54:35.204 DEBUG 处理模板: ./src/module/swiper.owo 
+16:54:35.213 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:54:35.213 DEBUG 模板swiper处理用时: 9 毫秒! 
+16:54:35.216 DEBUG 处理模板: ./src/module/newsList.owo 
+16:54:35.217 ERROR 模块: newsList 不包含script 
+16:54:35.225 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:54:35.225 DEBUG 模板newsList处理用时: 9 毫秒! 
+16:54:35.227 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:54:35.231 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:54:35.231 DEBUG 模板imageBar处理用时: 4 毫秒! 
+16:54:35.232 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:54:35.233 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:54:35.233 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:54:35.233 DEBUG 模板imageBar2处理用时: 1 毫秒! 
+16:54:35.234 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:54:35.236 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:54:35.236 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:54:35.236 DEBUG 模板imageBar3处理用时: 2 毫秒! 
+16:54:35.237 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:54:35.237 ERROR 模块: newsCard 不包含script 
+16:54:35.243 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:54:35.243 DEBUG 模板newsCard处理用时: 6 毫秒! 
+16:54:35.244 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:54:35.245 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:54:35.247 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:54:35.248 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:54:35.248 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:54:35.250 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:54:35.252 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:54:35.252 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:54:35.252 DEBUG 模板imageBar4处理用时: 2 毫秒! 
+16:54:35.252 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:54:35.259 DEBUG 发现 comment 规则: undefined 
+16:54:35.259 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:54:35.259 DEBUG 模板swiper2处理用时: 7 毫秒! 
+16:54:35.261 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:54:35.261 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:54:35.261 ERROR 模块: copyright 不包含script 
+16:54:35.264 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:54:35.264 DEBUG 模板copyright处理用时: 3 毫秒! 
+16:54:35.270 DEBUG 缓存模板: ./src/page/home.page 
+16:54:35.270 DEBUG 模板home处理用时: 92 毫秒! 
+16:54:35.270 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:54:35.270 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:54:35.270 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:54:35.270 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:54:35.270 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:54:35.270 INFO  css中的资源处理完毕! 
+16:54:35.277 INFO  正在处理script! 
+16:54:35.277 INFO  工程中只有一个页面! 
+16:54:35.278 DEBUG 页面中不包含切换动画! 
+16:54:35.387 INFO  js中的资源处理完毕! 
+16:54:35.387 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:54:35.387 DEBUG 外部脚本数量: 4 
+16:54:35.387 DEBUG 处理脚本: swiper 
+16:54:35.387 DEBUG 不使用bable处理脚本! 
+16:54:35.387 DEBUG 处理脚本: jquery1.11.0 
+16:54:35.387 DEBUG 网络脚本: jquery1.11.0 
+16:54:35.387 DEBUG 处理脚本: roundabout 
+16:54:35.387 DEBUG 不使用bable处理脚本! 
+16:54:35.387 DEBUG 处理脚本: jquery.easing.1.3 
+16:54:35.387 DEBUG 不使用bable处理脚本! 
+16:54:35.387 DEBUG 输出scriptData 
+16:54:35.387 DEBUG 判断是否可以输出Html! 
+16:54:35.387 DEBUG 还有没有经过处理的资源! 
+16:54:35.522 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:54:35.522 DEBUG 判断是否可以输出Html! 
+16:54:35.522 DEBUG 准备输出html! 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:54:35.522 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:54:35.522 DEBUG 开始美化html 
+16:54:35.541 INFO  发送重新页面需要刷新命令! 
+16:55:31.131 INFO  file change: D:\work\bjdqh\src\module\swiper.owo 
+16:55:31.131 INFO  --------------------------- 开始编译 --------------------------- 
+16:55:31.131 INFO  程序运行目录: D:\work\bjdqh 
+16:55:31.131 INFO  刷新模式,变化目录: D:\work\bjdqh\src\module\swiper.owo 
+16:55:31.131 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:55:31.132 DEBUG 读取网页标题: 页面 
+16:55:31.132 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=0, maximum-scale=1, user-scalable=yes,shrink-to-fit=no"}] 
+16:55:31.132 DEBUG 处理模板: ./src/page/home.page 
+16:55:31.138 DEBUG 处理模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:55:31.138 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\b2b2272f3aa2ded2637f7494addf3fad.owo 
+16:55:31.138 ERROR 模块: topBar 不包含script 
+16:55:31.140 DEBUG 缓存模板: https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page 
+16:55:31.140 DEBUG 模板topBar处理用时: 2 毫秒! 
+16:55:31.141 DEBUG 处理模板: ./src/module/titleBar.owo 
+16:55:31.141 ERROR 模块: titleBar 不包含script 
+16:55:31.146 DEBUG 缓存模板: ./src/module/titleBar.owo 
+16:55:31.146 DEBUG 模板titleBar处理用时: 5 毫秒! 
+16:55:31.148 DEBUG 处理模板: ./src/module/swiper.owo 
+16:55:31.154 DEBUG 缓存模板: ./src/module/swiper.owo 
+16:55:31.154 DEBUG 模板swiper处理用时: 6 毫秒! 
+16:55:31.157 DEBUG 处理模板: ./src/module/newsList.owo 
+16:55:31.158 ERROR 模块: newsList 不包含script 
+16:55:31.165 DEBUG 缓存模板: ./src/module/newsList.owo 
+16:55:31.165 DEBUG 模板newsList处理用时: 8 毫秒! 
+16:55:31.170 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:55:31.175 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:55:31.175 DEBUG 模板imageBar处理用时: 5 毫秒! 
+16:55:31.175 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:55:31.180 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:55:31.180 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:55:31.180 DEBUG 模板imageBar2处理用时: 5 毫秒! 
+16:55:31.180 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:55:31.181 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:55:31.181 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:55:31.181 DEBUG 模板imageBar3处理用时: 1 毫秒! 
+16:55:31.182 DEBUG 处理模板: ./src/module/newsCard.owo 
+16:55:31.182 ERROR 模块: newsCard 不包含script 
+16:55:31.189 DEBUG 缓存模板: ./src/module/newsCard.owo 
+16:55:31.189 DEBUG 模板newsCard处理用时: 7 毫秒! 
+16:55:31.191 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:55:31.191 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:55:31.193 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:55:31.193 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:55:31.194 DEBUG 使用缓存返回模板: ./src/module/newsCard.owo 
+16:55:31.195 DEBUG 处理模板: ./src/module/imageBar.owo 
+16:55:31.198 DEBUG 智能跳过打包./src/module/imageBar.owo的重复样式! 
+16:55:31.198 DEBUG 缓存模板: ./src/module/imageBar.owo 
+16:55:31.198 DEBUG 模板imageBar4处理用时: 3 毫秒! 
+16:55:31.198 DEBUG 处理模板: ./src/module/swiper2.owo 
+16:55:31.203 DEBUG 发现 comment 规则: undefined 
+16:55:31.203 DEBUG 缓存模板: ./src/module/swiper2.owo 
+16:55:31.203 DEBUG 模板swiper2处理用时: 5 毫秒! 
+16:55:31.205 DEBUG 处理模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:55:31.205 DEBUG 使用文件缓存:D:\work\bjdqh\owo_modules\43bb5b6a8aabc8078eb9c5d83fed5ab6.owo 
+16:55:31.205 ERROR 模块: copyright 不包含script 
+16:55:31.209 DEBUG 缓存模板: https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page 
+16:55:31.209 DEBUG 模板copyright处理用时: 4 毫秒! 
+16:55:31.215 DEBUG 缓存模板: ./src/page/home.page 
+16:55:31.215 DEBUG 模板home处理用时: 83 毫秒! 
+16:55:31.215 DEBUG 忽略文件: D:\work\bjdqh\src\resource\icon.png 
+16:55:31.215 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:55:31.215 DEBUG 忽略文件: D:\work\bjdqh\src\resource\left.png 
+16:55:31.215 DEBUG 忽略文件: D:\work\bjdqh\src\resource\bar.png 
+16:55:31.215 DEBUG 忽略文件: D:\work\bjdqh\src\resource\path.png 
+16:55:31.215 INFO  css中的资源处理完毕! 
+16:55:31.218 INFO  正在处理script! 
+16:55:31.218 INFO  工程中只有一个页面! 
+16:55:31.219 DEBUG 页面中不包含切换动画! 
+16:55:31.290 INFO  js中的资源处理完毕! 
+16:55:31.290 DEBUG 处理引用脚本: [{"name":"swiper","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"roundabout","src":"./src/resource/roundabout.js"},{"name":"jquery.easing.1.3","src":"./src/resource/jquery.easing.1.3.js"}] 
+16:55:31.290 DEBUG 外部脚本数量: 4 
+16:55:31.290 DEBUG 处理脚本: swiper 
+16:55:31.290 DEBUG 不使用bable处理脚本! 
+16:55:31.290 DEBUG 处理脚本: jquery1.11.0 
+16:55:31.290 DEBUG 网络脚本: jquery1.11.0 
+16:55:31.290 DEBUG 处理脚本: roundabout 
+16:55:31.290 DEBUG 不使用bable处理脚本! 
+16:55:31.290 DEBUG 处理脚本: jquery.easing.1.3 
+16:55:31.290 DEBUG 不使用bable处理脚本! 
+16:55:31.290 DEBUG 输出scriptData 
+16:55:31.290 DEBUG 判断是否可以输出Html! 
+16:55:31.290 DEBUG 还有没有经过处理的资源! 
+16:55:31.459 DEBUG 需要经过特殊处理的css: [[".o-topBar .title-bar ",".o-topBar "],[".o-titleBar .p1_con_a ",".o-titleBar "],[".o-titleBar .clearfix ",".o-titleBar "],[".o-titleBar .w1000 ",".o-titleBar "],[".o-swiper .banner-box ",".o-swiper "],[".o-newsList .news-list ",".o-newsList "],[".o-imageBar .image-bar ",".o-imageBar "],[".o-imageBar2 .image-bar ",".o-imageBar2 "],[".o-imageBar3 .image-bar ",".o-imageBar3 "],[".o-newsCard .card ",".o-newsCard "],[".o-imageBar4 .image-bar ",".o-imageBar4 "],[".o-swiper2 .p6_content ",".o-swiper2 "],[".o-swiper2 .white ",".o-swiper2 "],[".o-swiper2 .mt30 ",".o-swiper2 "],[".o-swiper2 .clearfix ",".o-swiper2 "],[".o-copyright .copyright-box ",".o-copyright "],[".o-home .home ",".o-home "]] 
+16:55:31.459 DEBUG 判断是否可以输出Html! 
+16:55:31.459 DEBUG 准备输出html! 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\image.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:55:31.459 DEBUG 忽略文件: D:\work\bjdqh\src\resource\title.png 
+16:55:31.459 DEBUG 开始美化html 
+16:55:31.476 INFO  发送重新页面需要刷新命令! 

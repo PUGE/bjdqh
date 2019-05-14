@@ -140,8 +140,13 @@
       height: 100%;
     }
 
-    .banner-box .left .text {
+    .banner-box .left p {
       line-height: 40px;
+      font-size: 14px;
+    }
+
+    .banner-box .left p a {
+      height: 40px;
     }
 
     .banner-box .pagination-pPX8XxuUyIehAAEu {
@@ -180,14 +185,22 @@
     .news-list ul,
     .news-list li {
       list-style: none;
+      font-size: 20px;
+      height: 42px;
+      line-height: 42px;
+      width: 395px;
+    }
+
+    .news-list li {
+      overflow: hidden;
+      border-bottom: 1px dashed #cdcdcd;
     }
 
     .news-list ul li i {
       display: inline-block;
       width: 15px;
       height: 15px;
-      background: url(http://rmfp.people.com.cn/img/MAIN/2017/05/117453/images/icon03.png) top center no-repeat;
-      margin: 0 10px 0 0;
+      background: url('./static/resource/icon.png') top center no-repeat;
     }
 
     .news-list ul li img {
@@ -210,8 +223,25 @@
 
     .image-bar {
       height: 100px;
+      position: relative;
       background-repeat: no-repeat;
       background-position: center;
+    }
+
+    .image-bar p {
+      position: absolute;
+      font-size: 32px;
+      color: #b40e01;
+      left: 40px;
+      right: 0;
+      top: 7px;
+      display: block;
+      margin: 0 auto;
+      width: 160px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      font-family: 'SimHei';
     }
 
     .card a {
@@ -289,6 +319,67 @@
       color: #a0a0a0;
     }
 
+    .p6_content {
+      position: relative;
+      width: 1000px;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+
+    .p6_content .roundabout-holder {
+      width: 760px;
+      height: 450px;
+      margin: 0 auto;
+    }
+
+    .p6_content .roundabout-moveable-item {
+      height: 450px;
+      width: 760px;
+      cursor: pointer;
+    }
+
+    .p6_content .roundabout-moveable-item img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .p6_content .next {
+      background: url('./static/resource/left.png') no-repeat;
+      z-index: 9999;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      right: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      width: 55px;
+      height: 55px;
+      background-position: center;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+    .p6_content .prev {
+      background: url('./static/resource/left.png') no-repeat;
+      width: 55px;
+      height: 55px;
+      background-position: center;
+      z-index: 9999;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+    }
+
+    .p6_content a {
+      display: block;
+    }
+
+    /*p7*/
     .copyright-box {
       height: 170px;
       color: #000000;
@@ -313,6 +404,7 @@
     .home-content {
       width: 1000px;
       margin: 0 auto;
+      padding-bottom: 80px;
       background-color: white;
     }
 
@@ -367,6 +459,54 @@
       margin: 0 auto;
       background-image: url('./static/resource/bar.png');
     }
+
+    .home .path-box .path {
+      width: 845px;
+      margin: 0 auto;
+    }
+
+    .home .path-box .path li {
+      width: 70px;
+      height: 150px;
+      display: block;
+      float: left;
+      border: 1px solid #a0a0a0;
+      border-radius: 8px;
+      margin-right: 70px;
+      margin-top: 40px;
+      padding: 5px;
+    }
+
+    .home .path-box .path li a {
+      display: block;
+      height: 140px;
+      width: 40px;
+      margin: 5px;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 24px;
+      padding: 5px 15px;
+      line-height: 30px;
+      display: table-cell;
+      vertical-align: middle;
+      background-color: #a0a0a0;
+    }
+
+    .home .path-box .path li a:hover {
+      text-decoration: none;
+    }
+
+    .home .path-box .path li:nth-last-child(1) {
+      margin-right: 0;
+    }
+
+    .home .path-box .path .active a {
+      background-color: #c02700;
+      background-image: url('./static/resource/path.png');
+      background-repeat: no-repeat;
+      background-position: 20px 115px;
+    }
   </style>
   <!-- 附属css文件 -->
   <link rel="stylesheet" href="./static/css/main.css">
@@ -412,19 +552,25 @@
                     <a target="_blank" href="#">
                       <img src="https://cunchu.site/ozzx/resource/img1.jpg">
                     </a>
-                    <a href="http://www.people.com.cn/" class="text">全省“法治进校园”巡讲团首站——晋中</a>
+                    <p>
+                      <a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a>
+                    </p>
                   </div>
                   <div class="swiper-slide">
                     <a target="_blank" href="#">
                       <img src="https://cunchu.site/ozzx/resource/img1.jpg">
                     </a>
-                    <a href="http://www.people.com.cn/" class="text">全省“法治进校园”巡讲团首站——晋中</a>
+                    <p>
+                      <a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a>
+                    </p>
                   </div>
                   <div class="swiper-slide">
                     <a target="_blank" href="#">
                       <img src="https://cunchu.site/ozzx/resource/img1.jpg">
                     </a>
-                    <a href="http://www.people.com.cn/" class="text">全省“法治进校园”巡讲团首站——晋中</a>
+                    <p>
+                      <a target="_blank" href="http://www.people.com.cn/">全省“法治进校园”巡讲团首站——晋中</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -464,16 +610,36 @@
           </div>
         </div>
       </div>
-      <!-- 装饰标题1 -->
+      <!-- 党旗边疆红 -->
       <div class="image-bar o-imageBar" template="imageBar">
-
+        <p>党旗边疆红</p>
       </div>
       <div class="path-box">
         <div class="path-bar"></div>
+        <ul class="path clear">
+          <li>
+            <a href="#">内蒙古</a>
+          </li>
+          <li>
+            <a href="#">黑龙江</a>
+          </li>
+          <li class="active">
+            <a href="#">云南</a>
+          </li>
+          <li>
+            <a href="#">西藏</a>
+          </li>
+          <li>
+            <a href="#">新疆</a>
+          </li>
+          <li>
+            <a href="#">新疆兵团</a>
+          </li>
+        </ul>
       </div>
       <!-- 装饰标题2 -->
       <div class="image-bar o-imageBar2" template="imageBar2">
-
+        <p>视频报道</p>
       </div>
       <div class="video clear">
         <div class="left fl">
@@ -499,7 +665,7 @@
       </div>
       <!-- 装饰标题3 -->
       <div class="image-bar o-imageBar3" template="imageBar3">
-
+        <p>直击现场</p>
       </div>
       <ul class="card-box clear">
         <div class="card o-newsCard" template="newsCard">
@@ -559,16 +725,33 @@
       </ul>
       <!-- 装饰标题4 -->
       <div class="image-bar o-imageBar4" template="imageBar4">
-
+        <p>高清全记录</p>
       </div>
-      <div class="card o-newsCard" template="newsCard">
-        <a href="#">
-          <img src="http://rmfp.people.com.cn/NMediaFile/2017/0517/MAIN201705171433333059075861890.jpg" width="317" height="204" border="0" alt="夜晚看路灯时，有时光线会随着眼睛的睁大和眯小有长度变化。拉长的光线只向下方延展，就是从眼睛指向嘴这个方向，到底是为什么呢？">
-          <p>
-            <b>人类获得“改写生命剧本的神笔”</b>
-            <em class="gray">夜晚看路灯时，有时光线会随着眼睛的睁大和眯小有长度变化。拉长的光线只向下方延展，就是从眼睛指向嘴这个方向，到底是为什么呢？</em>
-          </p>
-        </a>
+      <div class="p6_content white mt30 clearfix o-swiper2" template="swiper2">
+        <ul>
+          <li>
+            <a href="">
+              <img src="./static/resource/image.png" width="360" height="241" alt="">
+            </a><em></em>
+          </li>
+          <li>
+            <a href="">
+              <img src="./static/resource/image.png" width="360" height="241" alt="">
+            </a><em></em>
+          </li>
+          <li>
+            <a href="">
+              <img src="./static/resource/image.png" width="360" height="241" alt="">
+            </a><em></em>
+          </li>
+          <li>
+            <a href="">
+              <img src="./static/resource/image.png" width="360" height="241" alt="">
+            </a><em></em>
+          </li>
+        </ul>
+        <div class="prev"></div>
+        <div class="next"></div>
       </div>
     </div>
     <div class="copyright-box o-copyright" template="copyright">
@@ -613,7 +796,8 @@
               },
               "prop": {
                 "name": "imageBar",
-                "imgsrc": "./static/resource/title-1.png",
+                "text": "党旗边疆红",
+                "imgsrc": "./static/resource/title.png",
                 "src": "./src/module/imageBar.owo"
               }
             },
@@ -623,7 +807,8 @@
               },
               "prop": {
                 "name": "imageBar2",
-                "imgsrc": "./static/resource/title-2.png",
+                "text": "视频报道",
+                "imgsrc": "./static/resource/title.png",
                 "src": "./src/module/imageBar.owo"
               }
             },
@@ -633,7 +818,8 @@
               },
               "prop": {
                 "name": "imageBar3",
-                "imgsrc": "./static/resource/title-3.png",
+                "text": "直击现场",
+                "imgsrc": "./static/resource/title.png",
                 "src": "./src/module/imageBar.owo"
               }
             },
@@ -643,8 +829,25 @@
               },
               "prop": {
                 "name": "imageBar4",
-                "imgsrc": "./static/resource/title-3.png",
+                "text": "高清全记录",
+                "imgsrc": "./static/resource/title.png",
                 "src": "./src/module/imageBar.owo"
+              }
+            },
+            "swiper2": {
+              "created": function created() {
+                setTimeout(function() {
+                  $('.p6_content ul').roundabout({
+                    easing: 'easeOutInCirc',
+                    duration: 600,
+                    btnNext: ".next",
+                    btnPrev: ".prev"
+                  });
+                }, 0);
+              },
+              "prop": {
+                "name": "swiper2",
+                "src": "./src/module/swiper2.owo"
               }
             }
           }
@@ -693,6 +896,7 @@
   <script src="./static/js/swiper.js" type="text/javascript"></script>
   <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"></script>
   <script src="./static/js/roundabout.js" type="text/javascript"></script>
+  <script src="./static/js/jquery.easing.1.3.js" type="text/javascript"></script>
 </body>
 
 </html>

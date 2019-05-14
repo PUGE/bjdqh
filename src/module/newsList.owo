@@ -18,14 +18,21 @@
 <style lang="less">
 ol, ul, li{
   list-style:none;
+  font-size: 20px;
+  height: 42px;
+  line-height: 42px;
+  width: 395px;
+}
+li {
+  overflow: hidden;
+  border-bottom: 1px dashed #cdcdcd;
 }
 
 ul li i{
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-  background: url(http://rmfp.people.com.cn/img/MAIN/2017/05/117453/images/icon03.png) top center no-repeat;
-	margin: 0 10px 0 0;
+  background: url('@&icon.png&') top center no-repeat;
 }
 ul li img{ vertical-align:middle; margin-right:10px;}
 ul li a{ text-decoration:none;}

@@ -1,6 +1,6 @@
 <template>
   <div class="image-bar">
-
+    <p>{{prop.text}}</p>
   </div>
 </template>
 
@@ -15,7 +15,23 @@ module.exports = {
 <style lang="less">
 .image-bar {
   height: 100px;
+  position: relative;
   background-repeat: no-repeat;
   background-position: center;
+}
+p {
+  position: absolute;
+  font-size: 32px;
+  color: #b40e01;
+  left: 40px;
+  right: 0;
+  top: 7px;
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-family: 'SimHei';
 }
 </style>

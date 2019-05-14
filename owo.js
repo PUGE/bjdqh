@@ -34,6 +34,10 @@ module.exports = {
       name: "roundabout",
       src: "./src/resource/roundabout.js"
     },
+    {
+      name: "jquery.easing.1.3",
+      src: "./src/resource/jquery.easing.1.3.js"
+    },
   ],
   // 使用到的样式列表
   styleList: [

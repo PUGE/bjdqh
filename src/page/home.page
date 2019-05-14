@@ -14,13 +14,21 @@
           <temple name="newsList" src="./src/module/newsList.owo"></temple>
         </div>
       </div>
-      <!-- 装饰标题1 -->
-      <temple name="imageBar" imgsrc="@&title-1.png&" src="./src/module/imageBar.owo"></temple>
+      <!-- 党旗边疆红 -->
+      <temple name="imageBar" text="党旗边疆红" imgsrc="@&title.png&" src="./src/module/imageBar.owo"></temple>
       <div class="path-box">
         <div class="path-bar"></div>
+        <ul class="path clear">
+          <li><a href="#">内蒙古</a></li>
+          <li><a href="#">黑龙江</a></li>
+          <li class="active"><a href="#">云南</a></li>
+          <li><a href="#">西藏</a></li>
+          <li><a href="#">新疆</a></li>
+          <li><a href="#">新疆兵团</a></li>
+        </ul>
       </div>
       <!-- 装饰标题2 -->
-      <temple name="imageBar2" imgsrc="@&title-2.png&" src="./src/module/imageBar.owo"></temple>
+      <temple name="imageBar2" text="视频报道"  imgsrc="@&title.png&" src="./src/module/imageBar.owo"></temple>
       <div class="video clear">
         <div class="left fl">
           <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxNy81LzE4LzdmYjc5OTI5LTJlMzMtNDY2Zi1iNDU5LTIwMjBmMmYwZjQ4Yy54bWw=/noad/1/autoplay/0/nomenu/1/nologo/1/norecomm/1/skin/2/playerByOsmf.swf" quality="high" width="694" height="443" align="middle" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer">
@@ -38,7 +46,7 @@
         </div>
       </div>
       <!-- 装饰标题3 -->
-      <temple name="imageBar3" imgsrc="@&title-3.png&" src="./src/module/imageBar.owo"></temple>
+      <temple name="imageBar3" text="直击现场" imgsrc="@&title.png&" src="./src/module/imageBar.owo"></temple>
       <ul class="card-box clear">
         <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
         <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
@@ -48,8 +56,8 @@
         <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
       </ul>
       <!-- 装饰标题4 -->
-      <temple name="imageBar4" imgsrc="@&title-3.png&" src="./src/module/imageBar.owo"></temple>
-      <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+      <temple name="imageBar4" text="高清全记录" imgsrc="@&title.png&" src="./src/module/imageBar.owo"></temple>
+      <temple name="swiper2" src="./src/module/swiper2.owo"></temple>
     </div>
     <temple name="copyright"  src="https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page"></temple>
   </div>
@@ -67,6 +75,7 @@
 .home-content {
   width: 1000px;
   margin: 0 auto;
+  padding-bottom: 80px;
   background-color: white;
 }
 .fl {
@@ -113,7 +122,49 @@
     width: 835px;
     height: 69px;
     margin: 0 auto;
-    background-image: url('@&bar.png&')
+    background-image: url('@&bar.png&');
+  }
+  .path {
+    width: 845px;
+    margin: 0 auto;
+    li {
+      width: 70px;
+      height: 150px;
+      display: block;
+      float: left;
+      border: 1px solid #a0a0a0;
+      border-radius: 8px;
+      margin-right: 70px;
+      margin-top: 40px;
+      padding: 5px;
+      a {
+        display: block;
+        height: 140px;
+        width: 40px;
+        margin: 5px;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 24px;
+        padding: 5px 15px;
+        line-height: 30px;
+        display: table-cell;
+        vertical-align: middle;
+        background-color: #a0a0a0;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    li:nth-last-child(1) {
+      margin-right: 0;
+    }
+    .active a {
+      background-color: #c02700;
+      background-image: url('@&path.png&');
+      background-repeat: no-repeat;
+      background-position: 20px 115px;
+    }
   }
 }
 </style>
