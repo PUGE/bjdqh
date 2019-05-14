@@ -1,0 +1,56 @@
+<template>
+  <div class="p6_content white mt30 clearfix">
+    <ul> 
+      <li><a href=""><img src="@&image.jpg&" width="360" height="241" alt="" /></a><em></em><span>张巍：新结构的经济 需要新动能推动</span></li>
+      <li><a href=""><img src="@&image.jpg&" width="360" height="241" alt="" /></a><em></em><span>张巍：新结构的经济 需要新动能推动2</span></li>
+      <li><a href=""><img src="@&image.jpg&" width="360" height="241" alt="" /></a><em></em><span>张巍：新结构的经济 需要新动能推动3</span></li>
+      <li><a href=""><img src="@&image.jpg&" width="360" height="241" alt="" /></a><em></em><span>张巍：新结构的经济 需要新动能推动4</span></li>
+    </ul> 
+    <div class="prev"></div>
+    <div class="next"></div>    
+	</div>
+
+</template>
+
+<script>
+module.exports = {
+  created: () => {
+    setTimeout(() => {
+      $('.p6_content ul').roundabout({
+        duration: 600,
+        btnNext: ".next",
+        btnPrev: ".prev"
+      });
+
+      var $category1 = $('.p7_pic ul.list1 li:gt(3)');
+      $category1.hide();
+      var $toggleBtn1 = $('#showMore1');
+      $toggleBtn1.click(function(){
+        $category1.show();
+        $toggleBtn1.hide();
+      });
+
+      var $category2 = $('.p7_pic ul.list2 li:gt(3)');
+      $category2.hide();
+      var $toggleBtn2 = $('#showMore2');
+      $toggleBtn2.click(function(){
+        $category2.show();
+        $toggleBtn2.hide();
+      });
+    }, 1000)
+    
+  }
+}
+</script>
+
+<style lang="less">
+.p6_content{position:relative;width:960px;}
+.roundabout-holder{width:650px;height:241px;margin:0 auto;}
+.roundabout-moveable-item{height:241px;width:360px;cursor:pointer;}
+.roundabout-moveable-item img{height:100%;width:100%;}
+.roundabout-in-focus em{background:url(images/vbg.png) no-repeat;width:70px;height:70px;position: absolute;left:144px;top:76px;}
+.roundabout-in-focus span{position: absolute;width:344px;height: 38px;z-index:999;background:url(images/box_kuai.png);top:203px;left:0;line-height: 38px;font-size: 16px;padding-left:16px;}
+.next{background:url(images/btn_right2.png) no-repeat;width:25px;height:38px;z-index:9999;position:absolute;top:98px;right:0;cursor:pointer;}
+.prev{background:url(images/btn_left2.png) no-repeat;width:25px;height:38px;z-index:9999;position:absolute;top:98px;left:0;cursor:pointer;}
+/*p7*/
+</style>

@@ -26,6 +26,14 @@ module.exports = {
       name: "swiper",
       src: "./src/resource/idangerous.swiper2.7.0.min.js"
     },
+    {
+      name: "jquery1.11.0",
+      src: "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
+    },
+    {
+      name: "roundabout",
+      src: "./src/resource/roundabout.js"
+    },
   ],
   // 使用到的样式列表
   styleList: [

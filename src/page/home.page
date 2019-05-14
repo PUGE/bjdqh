@@ -1,6 +1,57 @@
 <template>
   <div class="home">
     <temple name="topBar" src="https://owo.ink/public/7d7233398a2d8e3dbfe0c51db7158223.page"></temple>
+    <!-- 主要内容区域 -->
+    <div class="home-content clear">
+      <!-- 顶部导航栏 -->
+      <temple name="titleBar" src="./src/module/titleBar.owo"></temple>
+      <!-- 轮播图区域 -->
+      <div class="show-box clear">
+        <div class="left fl">
+          <temple name="swiper" src="./src/module/swiper.owo"></temple>
+        </div>
+        <div class="right fl">
+          <temple name="newsList" src="./src/module/newsList.owo"></temple>
+        </div>
+      </div>
+      <!-- 装饰标题1 -->
+      <temple name="imageBar" imgsrc="@&title-1.png&" src="./src/module/imageBar.owo"></temple>
+      <div class="path-box">
+        <div class="path-bar"></div>
+      </div>
+      <!-- 装饰标题2 -->
+      <temple name="imageBar2" imgsrc="@&title-2.png&" src="./src/module/imageBar.owo"></temple>
+      <div class="video clear">
+        <div class="left fl">
+          <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvMjAxNy81LzE4LzdmYjc5OTI5LTJlMzMtNDY2Zi1iNDU5LTIwMjBmMmYwZjQ4Yy54bWw=/noad/1/autoplay/0/nomenu/1/nologo/1/norecomm/1/skin/2/playerByOsmf.swf" quality="high" width="694" height="443" align="middle" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer">
+          <p><a>为何微信发出的语音听起来不像是自己的</a></p>
+        </div>
+        <div class="right fr">
+          <div class="top">
+            <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvLzIwMTcvNC82L2JkNzBiMmU0LTk0NTUtNDVlZS04NWFlLTYxZjA2OGYyZWU2ZS54bWw=/skin/2/autoplay/0/nologo/1/noad/1/norecomm/1/nomenu/1/playerByOsmf.swf" quality="high" width="275" height="198" align="middle" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer">
+            <p><a>人类获得“改写生命剧本的神笔”</a></p>
+          </div>
+          <div class="bottom">
+            <embed src="http://tvplayer.people.com.cn/player.php/xml/L3B2c2VydmljZS94bWwvLzIwMTcvNC82L2JkNzBiMmU0LTk0NTUtNDVlZS04NWFlLTYxZjA2OGYyZWU2ZS54bWw=/skin/2/autoplay/0/nologo/1/noad/1/norecomm/1/nomenu/1/playerByOsmf.swf" quality="high" width="275" height="198" align="middle" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" name="ptvplayer" id="ptvplayer">
+            <p><a>人类获得“改写生命剧本的神笔”</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- 装饰标题3 -->
+      <temple name="imageBar3" imgsrc="@&title-3.png&" src="./src/module/imageBar.owo"></temple>
+      <ul class="card-box clear">
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+        <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+      </ul>
+      <!-- 装饰标题4 -->
+      <temple name="imageBar4" imgsrc="@&title-3.png&" src="./src/module/imageBar.owo"></temple>
+      <temple name="newsCard" src="./src/module/newsCard.owo"></temple>
+    </div>
+    <temple name="copyright"  src="https://owo.ink/public/1a09200bec9534a889b83834094ecb3e.page"></temple>
   </div>
 </template>
 
@@ -13,4 +64,56 @@
 
 
 <style lang="less">
+.home-content {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.image-bar {
+  margin: 30px 10px;
+}
+.video {
+  padding: 0 20px;
+  p {
+    text-align: center;
+    line-height: 50px;
+    color: #424348;
+    font-size: 16px;
+  }
+  .left {
+    embed {
+      width: 670px;
+      height: 430px;
+    }
+  }
+  .right {
+    embed {
+      width: 265px;
+      height: 190px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+.card-box {
+  display: block;
+  .card {
+    float: left;
+  }
+}
+.path-box {
+  .path-bar {
+    width: 835px;
+    height: 69px;
+    margin: 0 auto;
+    background-image: url('@&bar.png&')
+  }
+}
 </style>

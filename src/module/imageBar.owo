@@ -1,0 +1,21 @@
+<template>
+  <div class="image-bar">
+
+  </div>
+</template>
+
+<script>
+module.exports = {
+  created: function (params) {
+    this.$el.style.backgroundImage= `url('${this.prop.imgsrc}')`
+  }
+}
+</script>
+
+<style lang="less">
+.image-bar {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+</style>

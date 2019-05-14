@@ -5,13 +5,14 @@ body, html {
   width: 100%;
   user-select: text;
   min-width: 1200px;
-  font-family: Microsoft YaHei;
+  font: normal 12px/180% "SimSun";
   -webkit-overflow-scrolling: touch;
 }
 html {
   background-size: 100%;
   background-color: #f1f1f1;
   background-image: url('@&bg-spot.png&');
+  background-repeat: no-repeat;
 }
 /* 清除浮动 */
 .clear {
@@ -24,15 +25,7 @@ h1, h2, h3, h4, h5, input {
 ul, li {
   list-style-type: none;
 }
-li:before {
-  content: '•';
-  color: #595757;
-  width: 25px;
-  display: inline-block;
-  text-align: center;
-  font-size: 14px;
-  line-height: 28px;
-}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -42,9 +35,19 @@ a:hover {
   text-decoration: underline;
 }
 .o-topBar {
-  margin-bottom: 14%;
+  margin-bottom: 27%;
 }
-/* 新闻列表特殊处理 */
-.o-newsList {
-  padding-left: 10px;
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
 }
