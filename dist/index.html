@@ -261,6 +261,50 @@
       </div>
     </div>
   </div>
+  <script>
+    var pathList = [
+      {"name": "内蒙古", "url": "#", "active": false},
+      {"name": "黑龙江", "url": "#", "active": false},
+      {"name": "云南", "url": "#", "active": true},
+      {"name": "西藏", "url": "#", "active": false},
+      {"name": "新疆", "url": "#", "active": false},
+      {"name": "新疆兵团", "url": "#", "active": false},
+    ]
+    var htmlStr = ''
+    for (var ind = 0; ind < pathList.length; ind++) {
+      var item = pathList[ind]
+      if (item.active) {
+        htmlStr += '<li class="active"><a href="' + item.url +'">' + item.name +'<div class="info">查看报道</div></a></li>'
+      } else {
+        htmlStr += '<li><a href="' + item.url +'">' + item.name +'<div class="info">敬请关注</div></a></li>'
+      }
+    }
+    document.getElementsByClassName('path')[0].innerHTML = htmlStr
+  </script>
+  <style>
+    .path a {
+      position: relative;
+      overflow: hidden;
+    }
+    .path a:hover .info {
+      display: block;
+    }
+    .path .active .info {
+      background-color: #c52800;
+    }
+    .path .info {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 120px;
+      background-color: #a0a0a0;
+      padding: 15px 20px;
+      width: 30px;
+      text-align: center;
+      line-height: 30px;
+    }
+  </style>
   <!-- 框架script文件 -->
   <script src="./static/js/owo.main.ac2lvypdz8m.js" type="text/javascript"></script>
   <script src="./static/js/swiper.js" type="text/javascript"></script>
